@@ -1,0 +1,77 @@
+#!/bin/sh
+
+. /lib/functions.sh
+. /usr/share/libubox/jshn.sh
+
+readonly icon_path="/www/luci-static/aurora/images"
+readonly tmp_path="/tmp/aurora_icon.tmp"
+
+case "$1" in
+"list")
+	json_init
+	json_add_object "list_icons"
+	json_close_object
+	json_add_object "upload_icon"
+		json_add_string "filename" "filename"
+	json_close_object
+	json_add_object "remove_icon"
+		json_add_string "filename" "filename"
+	json_close_object
+	json_dump
+	json_cleanup
+	;;
+"call")
+	case "$2" in
+	"list_icons")
+		json_init
+		json_add_array "icons"
+		if [ -d "$icon_path" ]; then
+			for file in "$icon_path"/*; do
+				[ -f "$file" ] && json_add_string "" "$(basename "$file")"
+			done
+		fi
+		json_close_array
+		json_dump
+		json_cleanup
+		;;
+	"upload_icon")
+		read -r input
+		json_load "$input"
+		json_get_var filename "filename"
+		json_cleanup
+
+		# Validate filename for path traversal
+		if dirname "$filename" | grep -q "\.\."; then
+			echo '{ "result": 255 }'
+			exit 255
+		fi
+
+		# Ensure directory exists
+		mkdir -p "$icon_path"
+
+		# Move temp file to final location
+		if mv "$tmp_path" "$icon_path/$filename" 2>"/dev/null"; then
+			chmod 0644 "$icon_path/$filename"
+			echo '{ "result": 0 }'
+		else
+			echo '{ "result": 1 }'
+		fi
+		;;
+	"remove_icon")
+		read -r input
+		json_load "$input"
+		json_get_var filename "filename"
+		json_cleanup
+
+		# Validate filename for path traversal
+		if dirname "$filename" | grep -q "\.\."; then
+			echo '{ "result": 255 }'
+			exit 255
+		fi
+
+		rm -f "$icon_path/$filename"
+		echo '{ "result": 0 }'
+		;;
+	esac
+	;;
+esac

@@ -114,6 +114,24 @@ config aurora 'theme'
 	option struct_font_mono 'ui-monospace, "SF Mono", Menlo, Monaco, Consolas, monospace'
 	option struct_spacing '0.25rem'
 	option nav_submenu_type 'mega-menu'
+
+config toolbar_item
+	option title 'Overview'
+	option url '/cgi-bin/luci/admin/status/overview'
+	option icon 'overview.svg'
+	option enabled '1'
+
+config toolbar_item
+	option title 'System'
+	option url '/cgi-bin/luci/admin/system/system'
+	option icon 'system.svg'
+	option enabled '1'
+
+config toolbar_item
+	option title 'Network'
+	option url '/cgi-bin/luci/admin/network/network'
+	option icon 'network.svg'
+	option enabled '1'
 EOF
 
 exit 0

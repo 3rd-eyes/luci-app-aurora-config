@@ -4,11 +4,24 @@
     "read": {
       "uci": ["aurora"],
       "ubus": {
-        "aurora": ["get_theme"]
+        "luci.aurora": ["list_icons"],
+        "file": ["read", "list", "stat"]
+      },
+      "file": {
+        "/tmp/aurora_icon.tmp": ["read", "write"],
+        "/www/luci-static/aurora/images/*": ["read", "list"]
       }
     },
     "write": {
-      "uci": ["aurora"]
+      "uci": ["aurora"],
+      "ubus": {
+        "luci.aurora": ["upload_icon", "remove_icon"],
+        "file": ["write", "remove", "exec", "stat"]
+      },
+      "file": {
+        "/tmp/aurora_icon.tmp": ["read", "write"],
+        "/www/luci-static/aurora/images/*": ["read", "write", "remove"]
+      }
     }
   }
 }

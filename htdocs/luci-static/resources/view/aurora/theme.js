@@ -2,6 +2,9 @@
 "require view";
 "require form";
 "require uci";
+"require rpc";
+"require ui";
+"require fs";
 
 document.querySelector("head").appendChild(
   E("script", {
@@ -11,6 +14,24 @@ document.querySelector("head").appendChild(
 );
 
 const createSectionTitle = (title) => `<h5>${_(title)}</h5>`;
+
+// Declare RPC methods
+var callUploadIcon = rpc.declare({
+  object: "luci.aurora",
+  method: "upload_icon",
+  params: ["filename"],
+});
+
+var callListIcons = rpc.declare({
+  object: "luci.aurora",
+  method: "list_icons",
+});
+
+var callRemoveIcon = rpc.declare({
+  object: "luci.aurora",
+  method: "remove_icon",
+  params: ["filename"],
+});
 
 const addColorInputs = (ss, tab, colorVars, prefix) => {
   for (const item of colorVars) {
@@ -323,6 +344,7 @@ return view.extend({
 
     s.tab("colors", _("Color"));
     s.tab("structure", _("Structure"));
+    s.tab("toolbar", _("Floating Toolbar"));
 
     o = s.taboption(
       "colors",
@@ -440,6 +462,209 @@ return view.extend({
         }
         return element;
       });
+    };
+
+    // Icon Management Section
+    o = s.taboption(
+      "toolbar",
+      form.SectionValue,
+      "_icon_management",
+      form.NamedSection,
+      "theme",
+      "aurora",
+      _("Icon Management"),
+      _(
+        "Upload and manage custom icons for toolbar items. Icons are stored in <code>/www/luci-static/aurora/images/</code>."
+      )
+    );
+    ss = o.subsection;
+
+    // Upload button
+    so = ss.option(
+      form.Button,
+      "_upload_icon",
+      _("Upload Icon")
+    );
+    so.inputstyle = "add";
+    so.inputtitle = _("Upload Icon...");
+    so.onclick = ui.createHandlerFn(this, function(ev) {
+      var path = "/tmp/aurora_icon.tmp";
+      return ui.uploadFile(path, ev.target).then(function(res) {
+        console.log('Upload completed, res:', res);
+        if (!res || !res.name) {
+          throw new Error(_('No file selected or upload failed'));
+        }
+
+        // Extract basename to preserve original filename
+        var filename = res.name.split('/').pop().split('\\').pop();
+
+        return L.resolveDefault(callUploadIcon(filename), {}).then(function(ret) {
+          if (ret && ret.result === 0) {
+            ui.addNotification(null, E('p', _('Icon uploaded successfully: %s').format(filename)));
+            setTimeout(function() {
+              window.location.reload();
+            }, 1000);
+          } else {
+            var errorMsg = ret ? (ret.error || 'Unknown error') : 'No response from server';
+            ui.addNotification(null, E('p', _('Failed to upload icon: %s').format(errorMsg)));
+            return L.resolveDefault(fs.remove(path), {});
+          }
+        }).catch(function(rpcError) {
+          console.error('RPC call error:', rpcError);
+          ui.addNotification(null, E('p', _('RPC call failed: %s').format(rpcError.message || rpcError)));
+          return L.resolveDefault(fs.remove(path), {});
+        });
+      }).catch(function(e) {
+        console.error('Upload error:', e);
+        ui.addNotification(null, E('p', _('Upload error: %s').format(e.message)));
+        return L.resolveDefault(fs.remove(path), {});
+      });
+    });
+
+    // Show list of icons
+    so = ss.option(form.DummyValue, "_icon_list", _("Uploaded Icons"));
+    so.rawhtml = true;
+    so.cfgvalue = function () {
+      return L.resolveDefault(callListIcons(), { icons: [] }).then(
+        function (response) {
+          var icons = (response && response.icons) || [];
+
+          if (icons.length === 0) {
+            return '<em>' + _("No icons uploaded yet.") + "</em>";
+          }
+
+          var html =
+            '<ul style="list-style: none; padding: 0; margin: 10px 0;">';
+          icons.forEach(function (icon) {
+            html +=
+              '<li style="padding: 8px 0; border-bottom: 1px solid rgba(0,0,0,0.1); display: flex; justify-content: space-between; align-items: center;">';
+            html += '<span style="font-family: monospace;">' + icon + "</span>";
+            html +=
+              '<button class="cbi-button cbi-button-remove" data-icon="' +
+              icon +
+              '" style="margin-left: 10px;">' +
+              _("Delete") +
+              "</button>";
+            html += "</li>";
+          });
+          html += "</ul>";
+
+          // Add event delegation for delete buttons
+          setTimeout(function () {
+            var container = document.querySelector(
+              '[data-name="_icon_list"] .cbi-value-field'
+            );
+            if (container) {
+              container.addEventListener("click", function (e) {
+                if (
+                  e.target.classList.contains("cbi-button-remove") &&
+                  e.target.dataset.icon
+                ) {
+                  var icon = e.target.dataset.icon;
+                  if (confirm(_("Delete icon '%s'?").format(icon))) {
+                    L.resolveDefault(callRemoveIcon(icon), {}).then(
+                      function (ret) {
+                        if (ret.result === 0) {
+                          ui.addNotification(
+                            null,
+                            E("p", _("Icon deleted: %s").format(icon))
+                          );
+                          window.location.reload();
+                        } else {
+                          ui.addNotification(
+                            null,
+                            E("p", _("Failed to delete icon: %s").format(icon))
+                          );
+                        }
+                      }
+                    );
+                  }
+                }
+              });
+            }
+          }, 100);
+
+          return html;
+        }
+      );
+    };
+
+    // Toolbar Items Section
+    o = s.taboption(
+      "toolbar",
+      form.SectionValue,
+      "_toolbar",
+      form.GridSection,
+      "toolbar_item",
+      _("Toolbar Items"),
+      _(
+        "Configure the floating button group items. You can add, remove, and reorder items by dragging."
+      )
+    );
+    ss = o.subsection;
+
+    ss.addremove = true;
+    ss.sortable = true;
+    ss.anonymous = true;
+    ss.nodescriptions = true;
+
+    so = ss.option(form.Flag, "enabled", _("Enabled"));
+    so.default = "1";
+    so.rmempty = false;
+    so.editable = true;
+
+    so = ss.option(form.Value, "title", _("Title"));
+    so.rmempty = false;
+    so.placeholder = _("Button Title");
+    so.validate = function (section_id, value) {
+      if (!value || value.trim() === "") {
+        return _("Title is required");
+      }
+      return true;
+    };
+
+    so = ss.option(form.Value, "url", _("URL"));
+    so.rmempty = false;
+    so.placeholder = "/cgi-bin/luci/...";
+    so.validate = function (section_id, value) {
+      if (!value || value.trim() === "") {
+        return _("URL is required");
+      }
+      return true;
+    };
+
+    // Icon field as ListValue (dropdown)
+    so = ss.option(form.ListValue, "icon", _("Icon"));
+    so.rmempty = false;
+    so.load = function (section_id) {
+      return L.resolveDefault(callListIcons(), { icons: [] }).then(
+        L.bind(function (response) {
+          var icons = (response && response.icons) || [];
+
+          // Clear existing values
+          this.keylist = [];
+          this.vallist = [];
+
+          // Add icons as options
+          if (icons.length > 0) {
+            icons.forEach(
+              L.bind(function (icon) {
+                this.value(icon, icon);
+              }, this)
+            );
+          } else {
+            this.value("", _("(No icons uploaded)"));
+          }
+
+          return form.ListValue.prototype.load.apply(this, [section_id]);
+        }, this)
+      );
+    };
+    so.validate = function (section_id, value) {
+      if (!value || value.trim() === "") {
+        return _("Icon is required");
+      }
+      return true;
     };
 
     return m.render();
