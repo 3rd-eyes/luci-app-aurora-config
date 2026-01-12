@@ -142,14 +142,8 @@ return view.extend({
         "oklch(0.6656 0.1055 234.61)",
         _("Primary Text Color"),
       ],
-      [
-        "light_primary_hover",
-        "oklch(0.64 0.1055 234.61)",
-        _("Primary Hover Color"),
-      ],
       ["light_muted", "oklch(0.97 0 0)", _("Muted Color")],
       ["light_muted_text", "oklch(0.35 0 0)", _("Muted Text Color")],
-      ["light_muted_hover", "oklch(0.94 0 0)", _("Muted Hover Color")],
       ["light_accent", "oklch(0.62 0.22 25)", _("Accent Color")],
       ["light_accent_text", "oklch(0.97 0.02 25)", _("Accent Text Color")],
       ["light_destructive", "oklch(0.94 0.05 25)", _("Destructive Color")],
@@ -158,175 +152,51 @@ return view.extend({
         "oklch(0.35 0.12 25)",
         _("Destructive Text Color"),
       ],
-      [
-        "light_destructive_hover",
-        "oklch(0.92 0.06 25)",
-        _("Destructive Hover Color"),
-      ],
     ];
 
     const darkSemanticColorVars = [
-      ["dark_primary", "oklch(0.534 0.118 190.485)", _("Primary Color")],
+      ["dark_primary", "oklch(0.48 0.118 190.485)", _("Primary Color")],
       [
         "dark_primary_text",
-        "oklch(0.779 0.168 188.745)",
+        "oklch(0.73 0.168 188.745)",
         _("Primary Text Color"),
       ],
-      [
-        "dark_primary_hover",
-        "oklch(0.58 0.13 189.632)",
-        _("Primary Hover Color"),
-      ],
       ["dark_muted", "oklch(0.373 0.026 259.733)", _("Muted Color")],
-      ["dark_muted_text", "oklch(0.92 0.01 259.733)", _("Muted Text Color")],
-      ["dark_muted_hover", "oklch(0.395 0.026 259.733)", _("Muted Hover Color")],
+      ["dark_muted_text", "oklch(0.82 0.035 259.733)", _("Muted Text Color")],
       ["dark_accent", "oklch(0.35 0.12 25)", _("Accent Color")],
       ["dark_accent_text", "oklch(0.88 0.14 25)", _("Accent Text Color")],
-      ["dark_destructive", "oklch(0.28 0.12 25/0.3)", _("Destructive Color")],
+      ["dark_destructive", "oklch(0.258 0.092 26.042)", _("Destructive Color")],
       [
         "dark_destructive_text",
-        "oklch(0.88 0.14 25)",
+        "oklch(0.88 0.14 26.042)",
         _("Destructive Text Color"),
-      ],
-      [
-        "dark_destructive_hover",
-        "oklch(0.32 0.14 25/0.4)",
-        _("Destructive Hover Color"),
       ],
     ];
 
     const statusColorVars = [
-      ["light_default", "oklch(0.97 0 0)", _("Default Color")],
-      ["light_default_text", "oklch(0.205 0 0)", _("Default Text Color")],
-      [
-        "light_default_border",
-        "oklch(0.922 0 0/0.3)",
-        _("Default Border Color"),
-      ],
-      ["light_default_shadow", "oklch(0 0 0/0.1)", _("Default Shadow Color")],
-      ["light_default_start", "oklch(0.98 0 0)", _("Default Start Color")],
-      ["light_default_mid", "oklch(0.96 0 0)", _("Default Mid Color")],
-      ["light_default_end", "oklch(0.98 0 0)", _("Default End Color")],
       ["light_success", "oklch(0.94 0.05 160)", _("Success Color")],
       ["light_success_text", "oklch(0.32 0.09 165)", _("Success Text Color")],
-      [
-        "light_success_border",
-        "oklch(0.65 0.17 165/0.4)",
-        _("Success Border Color"),
-      ],
-      [
-        "light_success_shadow",
-        "oklch(0.65 0.17 165/0.1)",
-        _("Success Shadow Color"),
-      ],
-      ["light_success_start", "oklch(0.97 0.02 160)", _("Success Start Color")],
-      ["light_success_mid", "oklch(0.94 0.05 160)", _("Success Mid Color")],
-      ["light_success_end", "oklch(0.97 0.02 160)", _("Success End Color")],
       ["light_info", "oklch(0.94 0.05 230)", _("Info Color")],
       ["light_info_text", "oklch(0.35 0.08 240)", _("Info Text Color")],
-      ["light_info_border", "oklch(0.62 0.19 240/0.4)", _("Info Border Color")],
-      ["light_info_shadow", "oklch(0.62 0.19 240/0.1)", _("Info Shadow Color")],
-      ["light_info_start", "oklch(0.97 0.02 230)", _("Info Start Color")],
-      ["light_info_mid", "oklch(0.94 0.05 230)", _("Info Mid Color")],
-      ["light_info_end", "oklch(0.97 0.02 230)", _("Info End Color")],
       ["light_warning", "oklch(0.95 0.05 90)", _("Warning Color")],
       ["light_warning_text", "oklch(0.35 0.08 60)", _("Warning Text Color")],
-      [
-        "light_warning_border",
-        "oklch(0.68 0.18 75/0.4)",
-        _("Warning Border Color"),
-      ],
-      [
-        "light_warning_shadow",
-        "oklch(0.68 0.18 75/0.1)",
-        _("Warning Shadow Color"),
-      ],
-      ["light_warning_start", "oklch(0.98 0.02 90)", _("Warning Start Color")],
-      ["light_warning_mid", "oklch(0.95 0.05 90)", _("Warning Mid Color")],
-      ["light_warning_end", "oklch(0.98 0.02 90)", _("Warning End Color")],
       ["light_error", "oklch(0.94 0.05 25)", _("Error Color")],
       ["light_error_text", "oklch(0.35 0.12 25)", _("Error Text Color")],
-      [
-        "light_error_border",
-        "oklch(0.62 0.22 25/0.3)",
-        _("Error Border Color"),
-      ],
-      ["light_error_ring", "oklch(0.62 0.22 25/0.4)", _("Error Ring Color")],
-      [
-        "light_error_shadow",
-        "oklch(0.62 0.22 25/0.1)",
-        _("Error Shadow Color"),
-      ],
-      ["light_error_start", "oklch(0.97 0.02 25)", _("Error Start Color")],
-      ["light_error_mid", "oklch(0.94 0.05 25)", _("Error Mid Color")],
-      ["light_error_end", "oklch(0.97 0.02 25)", _("Error End Color")],
+      ["light_default", "oklch(0.97 0 0)", _("Default Color")],
+      ["light_default_text", "oklch(0.205 0 0)", _("Default Text Color")],
     ];
 
     const darkStatusColorVars = [
-      ["dark_default", "oklch(0.372 0.044 257.287)", _("Default Color")],
-      ["dark_default_text", "oklch(0.985 0.01 257.287)", _("Default Text Color")],
-      [
-        "dark_default_border",
-        "oklch(0.39 0.044 257.287/0.3)",
-        _("Default Border Color"),
-      ],
-      ["dark_default_shadow", "oklch(0 0 0/0.3)", _("Default Shadow Color")],
-      ["dark_default_start", "oklch(0.39 0.044 257.287/0.8)", _("Default Start Color")],
-      ["dark_default_mid", "oklch(0.355 0.044 257.287/0.6)", _("Default Mid Color")],
-      ["dark_default_end", "oklch(0.39 0.044 257.287/0.8)", _("Default End Color")],
-      ["dark_success", "oklch(0.28 0.09 165/0.3)", _("Success Color")],
+      ["dark_success", "oklch(0.378 0.077 168.94/0.5)", _("Success Color")],
       ["dark_success_text", "oklch(0.92 0.09 160)", _("Success Text Color")],
-      [
-        "dark_success_border",
-        "oklch(0.65 0.17 165/0.3)",
-        _("Success Border Color"),
-      ],
-      [
-        "dark_success_shadow",
-        "oklch(0.65 0.17 165/0.1)",
-        _("Success Shadow Color"),
-      ],
-      [
-        "dark_success_start",
-        "oklch(0.32 0.09 165/0.4)",
-        _("Success Start Color"),
-      ],
-      ["dark_success_mid", "oklch(0.28 0.09 165/0.3)", _("Success Mid Color")],
-      ["dark_success_end", "oklch(0.32 0.09 165/0.4)", _("Success End Color")],
-      ["dark_info", "oklch(0.28 0.08 240/0.3)", _("Info Color")],
+      ["dark_info", "oklch(0.391 0.09 240.876/0.5)", _("Info Color")],
       ["dark_info_text", "oklch(0.88 0.06 230)", _("Info Text Color")],
-      ["dark_info_border", "oklch(0.62 0.19 240/0.3)", _("Info Border Color")],
-      ["dark_info_shadow", "oklch(0.62 0.19 240/0.1)", _("Info Shadow Color")],
-      ["dark_info_start", "oklch(0.35 0.08 240/0.4)", _("Info Start Color")],
-      ["dark_info_mid", "oklch(0.28 0.08 240/0.3)", _("Info Mid Color")],
-      ["dark_info_end", "oklch(0.35 0.08 240/0.4)", _("Info End Color")],
-      ["dark_warning", "oklch(0.28 0.08 60/0.3)", _("Warning Color")],
-      ["dark_warning_text", "oklch(0.9 0.12 90)", _("Warning Text Color")],
-      [
-        "dark_warning_border",
-        "oklch(0.68 0.18 75/0.3)",
-        _("Warning Border Color"),
-      ],
-      [
-        "dark_warning_shadow",
-        "oklch(0.68 0.18 75/0.1)",
-        _("Warning Shadow Color"),
-      ],
-      [
-        "dark_warning_start",
-        "oklch(0.35 0.08 60/0.4)",
-        _("Warning Start Color"),
-      ],
-      ["dark_warning_mid", "oklch(0.28 0.08 60/0.3)", _("Warning Mid Color")],
-      ["dark_warning_end", "oklch(0.35 0.08 60/0.4)", _("Warning End Color")],
-      ["dark_error", "oklch(0.28 0.12 25/0.3)", _("Error Color")],
+      ["dark_warning", "oklch(0.414 0.112 45.904/0.5)", _("Warning Color")],
+      ["dark_warning_text", "oklch(0.924 0.12 95.746)", _("Warning Text Color")],
+      ["dark_error", "oklch(0.41 0.159 10.272/0.5)", _("Error Color")],
       ["dark_error_text", "oklch(0.88 0.14 25)", _("Error Text Color")],
-      ["dark_error_border", "oklch(0.62 0.22 25/0.3)", _("Error Border Color")],
-      ["dark_error_ring", "oklch(0.62 0.22 25/0.4)", _("Error Ring Color")],
-      ["dark_error_shadow", "oklch(0.62 0.22 25/0.1)", _("Error Shadow Color")],
-      ["dark_error_start", "oklch(0.35 0.12 25/0.4)", _("Error Start Color")],
-      ["dark_error_mid", "oklch(0.28 0.12 25/0.3)", _("Error Mid Color")],
-      ["dark_error_end", "oklch(0.35 0.12 25/0.4)", _("Error End Color")],
+      ["dark_default", "oklch(0.274 0.006 286.033/0.5)", _("Default Color")],
+      ["dark_default_text", "oklch(0.985 0.01 285.805)", _("Default Text Color")],
     ];
 
     const structureVars = [
@@ -362,36 +232,42 @@ return view.extend({
     const lightGradientTitle = ss.taboption("light", form.DummyValue, "", "");
     lightGradientTitle.rawhtml = true;
     lightGradientTitle.default = createSectionTitle(_("Gradient Colors"));
+    lightGradientTitle.description = _("Configure gradient colors used for backgrounds and progress bars. Progress bars use these gradients to create visual depth and indicate completion status.");
 
     addColorInputs(ss, "light", gradientColorVars, "light");
 
     const lightSemanticTitle = ss.taboption("light", form.DummyValue, "", "");
     lightSemanticTitle.rawhtml = true;
     lightSemanticTitle.default = createSectionTitle(_("Semantic Colors"));
+    lightSemanticTitle.description = _("Configure semantic colors used for buttons and badge components. The primary color is the most widely used color in the theme, affecting form components (input, button, select, dropdown) focus and hover states.");
 
     addColorInputs(ss, "light", semanticColorVars, "light");
 
     const lightStatusTitle = ss.taboption("light", form.DummyValue, "", "");
     lightStatusTitle.rawhtml = true;
     lightStatusTitle.default = createSectionTitle(_("Status Colors"));
+    lightStatusTitle.description = _("Configure status colors used for tooltips, alert messages, labels, and legend components. Each status (success, info, warning, error) has distinct colors to convey different states.");
 
     addColorInputs(ss, "light", statusColorVars, "light");
 
     const darkGradientTitle = ss.taboption("dark", form.DummyValue, "", "");
     darkGradientTitle.rawhtml = true;
     darkGradientTitle.default = createSectionTitle(_("Gradient Colors"));
+    darkGradientTitle.description = _("Configure gradient colors used for backgrounds and progress bars. Progress bars use these gradients to create visual depth and indicate completion status.");
 
     addColorInputs(ss, "dark", darkGradientColorVars, "dark");
 
     const darkSemanticTitle = ss.taboption("dark", form.DummyValue, "", "");
     darkSemanticTitle.rawhtml = true;
     darkSemanticTitle.default = createSectionTitle(_("Semantic Colors"));
+    darkSemanticTitle.description = _("Configure semantic colors used for buttons and badge components. The primary color is the most widely used color in the theme, affecting form components (input, button, select, dropdown) focus and hover states.");
 
     addColorInputs(ss, "dark", darkSemanticColorVars, "dark");
 
     const darkStatusTitle = ss.taboption("dark", form.DummyValue, "", "");
     darkStatusTitle.rawhtml = true;
     darkStatusTitle.default = createSectionTitle(_("Status Colors"));
+    darkStatusTitle.description = _("Configure status colors used for tooltips, alert messages, labels, and legend components. Each status (success, info, warning, error) has distinct colors to convey different states.");
 
     addColorInputs(ss, "dark", darkStatusColorVars, "dark");
 
