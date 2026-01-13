@@ -56,11 +56,11 @@ msgstr "颜色选择器助手"
 
 #: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:90
 msgid "Configure gradient colors used for backgrounds and progress bars.The theme background uses a three-color gradient, and progress bars use a two-color gradient."
-msgstr "配置用于背景和进度条的渐变颜色。主题背景使用三色渐变，进度条使用双色渐变。"
+msgstr "用于配置背景和进度条的渐变颜色。主题背景使用三色渐变，进度条使用双色渐变。"
 
 #: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:473
 msgid "Configure the floating button group items. You can add, edit, remove, and reorder items by dragging."
-msgstr "配置浮动按钮组项目。您可以通过拖动添加、编辑、删除和重新排序项目。"
+msgstr "配置悬浮按钮组项目。您可以通过添加、编辑、删除和拖动重新排序每一项。"
 
 #: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:395
 msgid "Customize the appearance and behavior of <a href=\"https://github.com/eamonxg/luci-theme-aurora\" target=\"_blank\">the Aurora theme</a>."
@@ -122,7 +122,7 @@ msgstr "上传图标失败：%s"
 
 #: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:402
 msgid "Floating Toolbar"
-msgstr "浮动工具栏"
+msgstr "悬浮工具栏"
 
 #: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:88
 msgid "Gradient Colors"
@@ -230,7 +230,8 @@ msgstr "语义颜色"
 
 #: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:97
 msgid "Semantic colors convey different operational behaviors, primarily used for buttons and badge elements. Each semantic type has two colors: the base color for backgrounds and the text color for content. The primary color affects form components (input, radio, checkbox, textarea, select, dynamic list) in hover, focus, and active states."
-msgstr "语义颜色传达不同的操作行为，主要用于按钮和徽章元素。每种语义类型有两种颜色：背景的基础颜色和内容的文字颜色。主颜色影响表单组件（输入、单选框、复选框、文本区域、选择、动态列表）的悬停、聚焦和活动状态。"
+msgstr "语义色用于传达不同的操作行为，主要应用于按钮和徽章元素。每种语义类型包含两种颜色：用于背景的基色和用于内容的文本色。主色（Primary color）会影响表单组件（输入框、单选框、复选框、文本区域、选择框、动态列表）在悬停、聚焦和激活状态下的显示。
+"
 
 #: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:443
 msgid "Spacing"
@@ -242,7 +243,7 @@ msgstr "状态颜色"
 
 #: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:104
 msgid "Status colors indicate different system states and feedback (default, success, info, warning, error). Each status has two colors: the base color for backgrounds and the text color for content. Applied to tooltips, alert messages, labels, and legends."
-msgstr "状态颜色表示不同的系统状态和反馈（默认、成功、信息、警告、错误）。每种状态有两种颜色：背景的基础颜色和内容的文字颜色。应用于工具提示、警报消息、标签和图例。"
+msgstr "状态色用于表示系统的不同状态和反馈（默认、成功、信息、警告、错误）。每种状态包含两种颜色：用于背景的基色和用于内容的文本色。适用于提示信息、警告消息、标签和图例。"
 
 #: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:401
 msgid "Structure"
