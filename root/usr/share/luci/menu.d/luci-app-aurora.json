@@ -1,6 +1,6 @@
 {
   "admin/system/aurora": {
-    "title": "Aurora Configuration",
+    "title": "Aurora Theme Configuration",
     "order": 60,
     "action": {
       "type": "view",
