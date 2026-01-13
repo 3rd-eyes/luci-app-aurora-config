@@ -1,0 +1,1099 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:510
+msgid "(No icons uploaded)"
+msgstr "(Keine Symbole hochgeladen)"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:326
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:344
+msgid "Accent Color"
+msgstr "Akzentfarbe"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:327
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:345
+msgid "Accent Text Color"
+msgstr "Akzenttextfarbe"
+
+#: applications/luci-app-aurora-config/root/usr/share/luci/menu.d/luci-app-aurora.json:3
+msgid "Aurora Settings"
+msgstr "Aurora-Einstellungen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:393
+msgid "Aurora Theme Settings"
+msgstr "Aurora-Theme-Einstellungen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:277
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:304
+msgid "Background End Color"
+msgstr "Hintergrund-Endfarbe"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:272
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:299
+msgid "Background Mid Color"
+msgstr "Hintergrund-Mittelfarbe"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:267
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:294
+msgid "Background Start Color"
+msgstr "Hintergrund-Startfarbe"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:439
+msgid "Boxed Dropdown"
+msgstr "Dropdown mit Rahmen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:489
+msgid "Button Title"
+msgstr "Schaltflächentitel"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:400
+msgid "Color"
+msgstr "Farbe"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:510
+msgid "Default Icon"
+msgstr "Standard-Symbol"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:511
+msgid "Description"
+msgstr "Beschreibung"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:512
+msgid "Device Name"
+msgstr "Gerätename"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:513
+msgid "Hostname"
+msgstr "Hostname"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:514
+msgid "IP Address"
+msgstr "IP-Adresse"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:515
+msgid "MAC Address"
+msgstr "MAC-Adresse"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:516
+msgid "Network"
+msgstr "Netzwerk"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:517
+msgid "Router"
+msgstr "Router"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:518
+msgid "SSID"
+msgstr "SSID"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:519
+msgid "Signal"
+msgstr "Signal"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:520
+msgid "Status"
+msgstr "Status"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:521
+msgid "Uptime"
+msgstr "Betriebszeit"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:522
+msgid "Version"
+msgstr "Version"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:523
+msgid "Wireless"
+msgstr "Drahtlos"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:524
+msgid "Wired"
+msgstr "Verdrahtet"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:525
+msgid "VPN"
+msgstr "VPN"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:526
+msgid "Guest"
+msgstr "Gast"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:527
+msgid "Client"
+msgstr "Client"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:528
+msgid "Server"
+msgstr "Server"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:529
+msgid "Bridge"
+msgstr "Brücke"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:530
+msgid "Repeater"
+msgstr "Repeater"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:531
+msgid "Access Point"
+msgstr "Zugangspunkt"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:532
+msgid "Mesh"
+msgstr "Mesh"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:533
+msgid "Powerline"
+msgstr "Powerline"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:534
+msgid "PLC"
+msgstr "PLC"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:535
+msgid "Ethernet"
+msgstr "Ethernet"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:536
+msgid "HomePlug"
+msgstr "HomePlug"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:537
+msgid "MoCA"
+msgstr "MoCA"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:538
+msgid "HDMI"
+msgstr "HDMI"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:539
+msgid "USB"
+msgstr "USB"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:540
+msgid "SATA"
+msgstr "SATA"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:541
+msgid "NVMe"
+msgstr "NVMe"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:542
+msgid "SD Card"
+msgstr "SD-Karte"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:543
+msgid "SIM Card"
+msgstr "SIM-Karte"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:544
+msgid "eSIM"
+msgstr "eSIM"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:545
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:546
+msgid "Infrared"
+msgstr "Infrarot"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:547
+msgid "NFC"
+msgstr "NFC"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:548
+msgid "Zigbee"
+msgstr "Zigbee"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:549
+msgid "Z-Wave"
+msgstr "Z-Wave"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:550
+msgid "Thread"
+msgstr "Thread"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:551
+msgid "LoRa"
+msgstr "LoRa"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:552
+msgid "Sigfox"
+msgstr "Sigfox"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:553
+msgid "Weight"
+msgstr "Gewicht"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:554
+msgid "Dimensions"
+msgstr "Abmessungen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:555
+msgid "Manufacturer"
+msgstr "Hersteller"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:556
+msgid "Model"
+msgstr "Modell"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:557
+msgid "Serial Number"
+msgstr "Seriennummer"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:558
+msgid "Firmware Version"
+msgstr "Firmware-Version"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:559
+msgid "Hardware Version"
+msgstr "Hardware-Version"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:560
+msgid "Software Version"
+msgstr "Software-Version"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:561
+msgid "Configuration"
+msgstr "Konfiguration"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:562
+msgid "Logs"
+msgstr "Protokolle"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:563
+msgid "Backup"
+msgstr "Sicherung"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:564
+msgid "Restore"
+msgstr "Wiederherstellen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:565
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:566
+msgid "Upgrade"
+msgstr "Upgrade"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:567
+msgid "Reboot"
+msgstr "Neustart"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:568
+msgid "Shutdown"
+msgstr "Herunterfahren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:569
+msgid "Factory Reset"
+msgstr "Werkseinstellungen zurücksetzen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:570
+msgid "Safe Mode"
+msgstr "Abgesicherter Modus"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:571
+msgid "Recovery Mode"
+msgstr "Wiederherstellungsmodus"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:572
+msgid "Maintenance Mode"
+msgstr "Wartungsmodus"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:573
+msgid "Diagnostics"
+msgstr "Diagnose"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:574
+msgid "Support"
+msgstr "Unterstützung"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:575
+msgid "Feedback"
+msgstr "Rückmeldung"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:576
+msgid "Help"
+msgstr "Hilfe"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:577
+msgid "About"
+msgstr "Über"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:578
+msgid "Logout"
+msgstr "Abmelden"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:579
+msgid "Login"
+msgstr "Anmelden"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:580
+msgid "Register"
+msgstr "Registrieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:581
+msgid "Activate"
+msgstr "Aktivieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:582
+msgid "Deactivate"
+msgstr "Deaktivieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:583
+msgid "Enable"
+msgstr "Aktivieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:584
+msgid "Disable"
+msgstr "Deaktivieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:585
+msgid "Show"
+msgstr "Anzeigen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:586
+msgid "Hide"
+msgstr "Ausblenden"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:587
+msgid "Select"
+msgstr "Auswählen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:588
+msgid "Deselect"
+msgstr "Abwählen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:589
+msgid "Check"
+msgstr "Überprüfen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:590
+msgid "Uncheck"
+msgstr "Nicht überprüfen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:591
+msgid "Finish"
+msgstr "Fertigstellen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:592
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:593
+msgid "Apply"
+msgstr "Anwenden"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:594
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:595
+msgid "Save"
+msgstr "Speichern"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:596
+msgid "Load"
+msgstr "Laden"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:597
+msgid "Import"
+msgstr "Importieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:598
+msgid "Export"
+msgstr "Exportieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:599
+msgid "Share"
+msgstr "Teilen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:600
+msgid "Print"
+msgstr "Drucken"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:601
+msgid "Scan"
+msgstr "Scannen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:602
+msgid "Copy"
+msgstr "Kopieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:603
+msgid "Cut"
+msgstr "Ausschneiden"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:604
+msgid "Paste"
+msgstr "Einfügen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:605
+msgid "Undo"
+msgstr "Rückgängig"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:606
+msgid "Redo"
+msgstr "Wiederherstellen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:607
+msgid "Search"
+msgstr "Suche"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:608
+msgid "Filter"
+msgstr "Filter"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:609
+msgid "Sort"
+msgstr "Sortieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:610
+msgid "Group"
+msgstr "Gruppe"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:611
+msgid "Ungroup"
+msgstr "Gruppe aufheben"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:612
+msgid "Expand"
+msgstr "Erweitern"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:613
+msgid "Collapse"
+msgstr "Zusammenklappen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:614
+msgid "Open"
+msgstr "Öffnen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:615
+msgid "Close"
+msgstr "Schließen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:616
+msgid "Enable Notifications"
+msgstr "Benachrichtigungen aktivieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:617
+msgid "Disable Notifications"
+msgstr "Benachrichtigungen deaktivieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:618
+msgid "Mute"
+msgstr "Stummschalten"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:619
+msgid "Unmute"
+msgstr "Stummschaltung aufheben"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:620
+msgid "Snooze"
+msgstr "Schlummern"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:621
+msgid "Wake"
+msgstr "Wecken"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:622
+msgid "Lock"
+msgstr "Sperren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:623
+msgid "Unlock"
+msgstr "Entsperren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:624
+msgid "Enable Location"
+msgstr "Standort aktivieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:625
+msgid "Disable Location"
+msgstr "Standort deaktivieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:626
+msgid "Calibrate"
+msgstr "Kalibrieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:627
+msgid "Reset Calibration"
+msgstr "Kalibrierung zurücksetzen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:628
+msgid "Start"
+msgstr "Start"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:629
+msgid "Stop"
+msgstr "Stopp"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:630
+msgid "Pause"
+msgstr "Pause"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:631
+msgid "Resume"
+msgstr "Fortsetzen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:632
+msgid "Download"
+msgstr "Herunterladen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:633
+msgid "Upload"
+msgstr "Hochladen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:634
+msgid "Sync"
+msgstr "Synchronisieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:635
+msgid "Backup Now"
+msgstr "Jetzt sichern"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:636
+msgid "Restore Now"
+msgstr "Jetzt wiederherstellen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:637
+msgid "Update Now"
+msgstr "Jetzt aktualisieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:638
+msgid "Upgrade Now"
+msgstr "Jetzt upgraden"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:639
+msgid "Reboot Now"
+msgstr "Jetzt neu starten"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:640
+msgid "Shutdown Now"
+msgstr "Jetzt herunterfahren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:641
+msgid "Factory Reset Now"
+msgstr "Jetzt auf Werkseinstellungen zurücksetzen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:642
+msgid "Safe Mode Now"
+msgstr "Jetzt im abgesicherten Modus starten"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:643
+msgid "Recovery Mode Now"
+msgstr "Jetzt im Wiederherstellungsmodus starten"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:644
+msgid "Maintenance Mode Now"
+msgstr "Jetzt im Wartungsmodus starten"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:645
+msgid "Diagnostics Now"
+msgstr "Jetzt Diagnose durchführen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:646
+msgid "Support Now"
+msgstr "Jetzt Unterstützung erhalten"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:647
+msgid "Feedback Now"
+msgstr "Jetzt Rückmeldung geben"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:648
+msgid "Help Now"
+msgstr "Jetzt Hilfe erhalten"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:649
+msgid "About Now"
+msgstr "Jetzt über uns"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:650
+msgid "Logout Now"
+msgstr "Jetzt abmelden"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:651
+msgid "Login Now"
+msgstr "Jetzt anmelden"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:652
+msgid "Register Now"
+msgstr "Jetzt registrieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:653
+msgid "Activate Now"
+msgstr "Jetzt aktivieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:654
+msgid "Deactivate Now"
+msgstr "Jetzt deaktivieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:655
+msgid "Enable Now"
+msgstr "Jetzt aktivieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:656
+msgid "Disable Now"
+msgstr "Jetzt deaktivieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:657
+msgid "Show Now"
+msgstr "Jetzt anzeigen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:658
+msgid "Hide Now"
+msgstr "Jetzt ausblenden"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:659
+msgid "Select Now"
+msgstr "Jetzt auswählen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:660
+msgid "Deselect Now"
+msgstr "Jetzt abwählen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:661
+msgid "Check Now"
+msgstr "Jetzt überprüfen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:662
+msgid "Uncheck Now"
+msgstr "Jetzt nicht überprüfen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:663
+msgid "Finish Now"
+msgstr "Jetzt fertigstellen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:664
+msgid "Cancel Now"
+msgstr "Jetzt abbrechen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:665
+msgid "Apply Now"
+msgstr "Jetzt anwenden"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:666
+msgid "Reset Now"
+msgstr "Jetzt zurücksetzen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:667
+msgid "Save Now"
+msgstr "Jetzt speichern"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:668
+msgid "Load Now"
+msgstr "Jetzt laden"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:669
+msgid "Import Now"
+msgstr "Jetzt importieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:670
+msgid "Export Now"
+msgstr "Jetzt exportieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:671
+msgid "Share Now"
+msgstr "Jetzt teilen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:672
+msgid "Print Now"
+msgstr "Jetzt drucken"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:673
+msgid "Scan Now"
+msgstr "Jetzt scannen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:674
+msgid "Copy Now"
+msgstr "Jetzt kopieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:675
+msgid "Cut Now"
+msgstr "Jetzt ausschneiden"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:676
+msgid "Paste Now"
+msgstr "Jetzt einfügen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:677
+msgid "Undo Now"
+msgstr "Jetzt rückgängig"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:678
+msgid "Redo Now"
+msgstr "Jetzt wiederherstellen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:679
+msgid "Search Now"
+msgstr "Jetzt suchen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:680
+msgid "Filter Now"
+msgstr "Jetzt filtern"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:681
+msgid "Sort Now"
+msgstr "Jetzt sortieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:682
+msgid "Group Now"
+msgstr "Jetzt gruppieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:683
+msgid "Ungroup Now"
+msgstr "Jetzt Gruppe aufheben"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:684
+msgid "Expand Now"
+msgstr "Jetzt erweitern"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:685
+msgid "Collapse Now"
+msgstr "Jetzt zusammenklappen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:686
+msgid "Open Now"
+msgstr "Jetzt öffnen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:687
+msgid "Close Now"
+msgstr "Jetzt schließen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:688
+msgid "Enable Notifications Now"
+msgstr "Benachrichtigungen jetzt aktivieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:689
+msgid "Disable Notifications Now"
+msgstr "Benachrichtigungen jetzt deaktivieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:690
+msgid "Mute Now"
+msgstr "Jetzt stummschalten"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:691
+msgid "Unmute Now"
+msgstr "Jetzt Stummschaltung aufheben"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:692
+msgid "Snooze Now"
+msgstr "Jetzt schlummern"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:693
+msgid "Wake Now"
+msgstr "Jetzt wecken"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:694
+msgid "Lock Now"
+msgstr "Jetzt sperren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:695
+msgid "Unlock Now"
+msgstr "Jetzt entsperren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:696
+msgid "Enable Location Now"
+msgstr "Standort jetzt aktivieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:697
+msgid "Disable Location Now"
+msgstr "Standort jetzt deaktivieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:698
+msgid "Calibrate Now"
+msgstr "Jetzt kalibrieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:699
+msgid "Reset Calibration Now"
+msgstr "Kalibrierung jetzt zurücksetzen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:700
+msgid "Start Now"
+msgstr "Jetzt starten"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:701
+msgid "Stop Now"
+msgstr "Jetzt stoppen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:702
+msgid "Pause Now"
+msgstr "Jetzt pausieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:703
+msgid "Resume Now"
+msgstr "Jetzt fortsetzen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:704
+msgid "Download Now"
+msgstr "Jetzt herunterladen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:705
+msgid "Upload Now"
+msgstr "Jetzt hochladen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:706
+msgid "Sync Now"
+msgstr "Jetzt synchronisieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:707
+msgid "Backup Now"
+msgstr "Jetzt sichern"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:708
+msgid "Restore Now"
+msgstr "Jetzt wiederherstellen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:709
+msgid "Update Now"
+msgstr "Jetzt aktualisieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:710
+msgid "Upgrade Now"
+msgstr "Jetzt upgraden"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:711
+msgid "Reboot Now"
+msgstr "Jetzt neu starten"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:712
+msgid "Shutdown Now"
+msgstr "Jetzt herunterfahren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:713
+msgid "Factory Reset Now"
+msgstr "Jetzt auf Werkseinstellungen zurücksetzen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:714
+msgid "Safe Mode Now"
+msgstr "Jetzt im abgesicherten Modus starten"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:715
+msgid "Recovery Mode Now"
+msgstr "Jetzt im Wiederherstellungsmodus starten"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:716
+msgid "Maintenance Mode Now"
+msgstr "Jetzt im Wartungsmodus starten"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:717
+msgid "Diagnostics Now"
+msgstr "Jetzt Diagnose durchführen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:718
+msgid "Support Now"
+msgstr "Jetzt Unterstützung erhalten"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:719
+msgid "Feedback Now"
+msgstr "Jetzt Rückmeldung geben"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:720
+msgid "Help Now"
+msgstr "Jetzt Hilfe erhalten"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:721
+msgid "About Now"
+msgstr "Jetzt über uns"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:722
+msgid "Logout Now"
+msgstr "Jetzt abmelden"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:723
+msgid "Login Now"
+msgstr "Jetzt anmelden"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:724
+msgid "Register Now"
+msgstr "Jetzt registrieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:725
+msgid "Activate Now"
+msgstr "Jetzt aktivieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:726
+msgid "Deactivate Now"
+msgstr "Jetzt deaktivieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:727
+msgid "Enable Now"
+msgstr "Jetzt aktivieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:728
+msgid "Disable Now"
+msgstr "Jetzt deaktivieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:729
+msgid "Show Now"
+msgstr "Jetzt anzeigen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:730
+msgid "Hide Now"
+msgstr "Jetzt ausblenden"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:731
+msgid "Select Now"
+msgstr "Jetzt auswählen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:732
+msgid "Deselect Now"
+msgstr "Jetzt abwählen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:733
+msgid "Check Now"
+msgstr "Jetzt überprüfen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:734
+msgid "Uncheck Now"
+msgstr "Jetzt nicht überprüfen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:735
+msgid "Finish Now"
+msgstr "Jetzt fertigstellen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:736
+msgid "Cancel Now"
+msgstr "Jetzt abbrechen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:737
+msgid "Apply Now"
+msgstr "Jetzt anwenden"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:738
+msgid "Reset Now"
+msgstr "Jetzt zurücksetzen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:739
+msgid "Save Now"
+msgstr "Jetzt speichern"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:740
+msgid "Load Now"
+msgstr "Jetzt laden"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:741
+msgid "Import Now"
+msgstr "Jetzt importieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:742
+msgid "Export Now"
+msgstr "Jetzt exportieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:743
+msgid "Share Now"
+msgstr "Jetzt teilen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:744
+msgid "Print Now"
+msgstr "Jetzt drucken"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:745
+msgid "Scan Now"
+msgstr "Jetzt scannen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:746
+msgid "Copy Now"
+msgstr "Jetzt kopieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:747
+msgid "Cut Now"
+msgstr "Jetzt ausschneiden"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:748
+msgid "Paste Now"
+msgstr "Jetzt einfügen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:749
+msgid "Undo Now"
+msgstr "Jetzt rückgängig"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:750
+msgid "Redo Now"
+msgstr "Jetzt wiederherstellen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:751
+msgid "Search Now"
+msgstr "Jetzt suchen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:752
+msgid "Filter Now"
+msgstr "Jetzt filtern"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:753
+msgid "Sort Now"
+msgstr "Jetzt sortieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:754
+msgid "Group Now"
+msgstr "Jetzt gruppieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:755
+msgid "Ungroup Now"
+msgstr "Jetzt Gruppe aufheben"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:756
+msgid "Expand Now"
+msgstr "Jetzt erweitern"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:757
+msgid "Collapse Now"
+msgstr "Jetzt zusammenklappen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:758
+msgid "Open Now"
+msgstr "Jetzt öffnen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:759
+msgid "Close Now"
+msgstr "Jetzt schließen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:760
+msgid "Enable Notifications Now"
+msgstr "Benachrichtigungen jetzt aktivieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:761
+msgid "Disable Notifications Now"
+msgstr "Benachrichtigungen jetzt deaktivieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:762
+msgid "Mute Now"
+msgstr "Jetzt stummschalten"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:763
+msgid "Unmute Now"
+msgstr "Jetzt Stummschaltung aufheben"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:764
+msgid "Snooze Now"
+msgstr "Jetzt schlummern"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:765
+msgid "Wake Now"
+msgstr "Jetzt wecken"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:766
+msgid "Lock Now"
+msgstr "Jetzt sperren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:767
+msgid "Unlock Now"
+msgstr "Jetzt entsperren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:768
+msgid "Enable Location Now"
+msgstr "Standort jetzt aktivieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:769
+msgid "Disable Location Now"
+msgstr "Standort jetzt deaktivieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:770
+msgid "Calibrate Now"
+msgstr "Jetzt kalibrieren"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:771
+msgid "Reset Calibration Now"
+msgstr "Kalibrierung jetzt zurücksetzen"

@@ -1,144 +1,137 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=UTF-8"
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:132
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:162
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:510
+msgid "(No icons uploaded)"
+msgstr ""
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:326
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:344
 msgid "Accent Color"
 msgstr ""
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:133
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:163
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:327
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:345
 msgid "Accent Text Color"
 msgstr ""
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:320
 #: applications/luci-app-aurora-config/root/usr/share/luci/menu.d/luci-app-aurora.json:3
-msgid "Aurora Configuration"
+msgid "Aurora Settings"
 msgstr ""
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:75
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:103
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:393
+msgid "Aurora Theme Settings"
+msgstr ""
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:277
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:304
 msgid "Background End Color"
 msgstr ""
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:70
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:98
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:272
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:299
 msgid "Background Mid Color"
 msgstr ""
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:65
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:93
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:267
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:294
 msgid "Background Start Color"
 msgstr ""
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:396
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:439
 msgid "Boxed Dropdown"
 msgstr ""
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:324
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:489
+msgid "Button Title"
+msgstr ""
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:400
 msgid "Color"
 msgstr ""
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:42
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:49
 msgid "Color Picker Helper"
 msgstr ""
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:338
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:90
+msgid ""
+"Configure gradient colors used for backgrounds and progress bars.The theme "
+"background uses a three-color gradient, and progress bars use a two-color "
+"gradient."
+msgstr ""
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:473
+msgid ""
+"Configure the floating button group items. You can add, edit, remove, and "
+"reorder items by dragging."
+msgstr ""
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:395
+msgid ""
+"Customize the appearance and behavior of <a href=\"https://github.com/"
+"eamonxg/luci-theme-aurora\" target=\"_blank\">the Aurora theme</a>."
+msgstr ""
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:414
 msgid "Dark Mode"
 msgstr ""
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:183
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:250
-msgid "Default Border Color"
-msgstr ""
-
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:178
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:245
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:366
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:382
 msgid "Default Color"
 msgstr ""
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:188
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:255
-msgid "Default End Color"
-msgstr ""
-
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:187
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:254
-msgid "Default Mid Color"
-msgstr ""
-
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:185
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:252
-msgid "Default Shadow Color"
-msgstr ""
-
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:186
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:253
-msgid "Default Start Color"
-msgstr ""
-
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:179
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:246
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:367
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:386
 msgid "Default Text Color"
 msgstr ""
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:134
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:164
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:214
+msgid "Delete"
+msgstr ""
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:232
+msgid "Delete icon '%s'?"
+msgstr ""
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:328
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:349
 msgid "Destructive Color"
 msgstr ""
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:143
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:173
-msgid "Destructive Hover Color"
-msgstr ""
-
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:138
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:168
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:332
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:354
 msgid "Destructive Text Color"
 msgstr ""
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:231
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:303
-msgid "Error Border Color"
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:482
+msgid "Enabled"
 msgstr ""
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:226
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:301
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:364
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:380
 msgid "Error Color"
 msgstr ""
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:241
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:308
-msgid "Error End Color"
-msgstr ""
-
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:240
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:307
-msgid "Error Mid Color"
-msgstr ""
-
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:233
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:304
-msgid "Error Ring Color"
-msgstr ""
-
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:237
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:305
-msgid "Error Shadow Color"
-msgstr ""
-
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:239
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:306
-msgid "Error Start Color"
-msgstr ""
-
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:227
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:302
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:365
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:381
 msgid "Error Text Color"
 msgstr ""
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:342
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:360
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:243
+msgid "Failed to delete icon: %s"
+msgstr ""
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:178
+msgid "Failed to upload icon: %s"
+msgstr ""
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:402
+msgid "Floating Toolbar"
+msgstr ""
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:88
 msgid "Gradient Colors"
 msgstr ""
 
@@ -146,181 +139,191 @@ msgstr ""
 msgid "Grant access to Aurora theme configuration"
 msgstr ""
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:206
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:277
-msgid "Info Border Color"
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:499
+msgid "Icon"
 msgstr ""
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:204
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:275
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:456
+msgid "Icon Management"
+msgstr ""
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:237
+msgid "Icon deleted: %s"
+msgstr ""
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:517
+msgid "Icon is required"
+msgstr ""
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:171
+msgid "Icon uploaded successfully: %s"
+msgstr ""
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:360
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:372
 msgid "Info Color"
 msgstr ""
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:210
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:281
-msgid "Info End Color"
-msgstr ""
-
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:209
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:280
-msgid "Info Mid Color"
-msgstr ""
-
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:207
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:278
-msgid "Info Shadow Color"
-msgstr ""
-
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:208
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:279
-msgid "Info Start Color"
-msgstr ""
-
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:205
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:276
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:361
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:373
 msgid "Info Text Color"
 msgstr ""
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:388
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:426
 msgid "Layout"
 msgstr ""
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:337
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:428
+msgid ""
+"Layout settings control the navigation submenu display style and global "
+"component spacing."
+msgstr ""
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:413
 msgid "Light Mode"
 msgstr ""
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:395
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:438
 msgid "Mega Menu"
 msgstr ""
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:129
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:159
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:324
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:342
 msgid "Muted Color"
 msgstr ""
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:131
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:161
-msgid "Muted Hover Color"
-msgstr ""
-
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:130
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:160
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:325
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:343
 msgid "Muted Text Color"
 msgstr ""
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:393
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:436
 msgid "Navigation Submenu Type"
 msgstr ""
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:118
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:148
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:164
+msgid "No file selected or upload failed"
+msgstr ""
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:207
+msgid "No icons uploaded yet."
+msgstr ""
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:318
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:336
 msgid "Primary Color"
 msgstr ""
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:127
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:157
-msgid "Primary Hover Color"
-msgstr ""
-
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:122
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:152
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:322
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:340
 msgid "Primary Text Color"
 msgstr ""
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:85
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:113
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:287
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:314
 msgid "Progress End Color"
 msgstr ""
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:80
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:108
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:282
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:309
 msgid "Progress Start Color"
 msgstr ""
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:348
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:366
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:186
+msgid "RPC call failed: %s"
+msgstr ""
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:95
 msgid "Semantic Colors"
 msgstr ""
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:400
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:97
+msgid ""
+"Semantic colors convey different operational behaviors, primarily used for "
+"buttons and badge elements. Each semantic type has two colors: the base "
+"color for backgrounds and the text color for content. The primary color "
+"affects form components (input, radio, checkbox, textarea, select, dynamic "
+"list) in hover, focus, and active states."
+msgstr ""
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:443
 msgid "Spacing"
 msgstr ""
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:354
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:372
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:102
 msgid "Status Colors"
 msgstr ""
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:325
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:104
+msgid ""
+"Status colors indicate different system states and feedback (default, "
+"success, info, warning, error). Each status has two colors: the base color "
+"for backgrounds and the text color for content. Applied to tooltips, alert "
+"messages, labels, and legends."
+msgstr ""
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:401
 msgid "Structure"
 msgstr ""
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:194
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:261
-msgid "Success Border Color"
-msgstr ""
-
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:189
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:256
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:358
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:370
 msgid "Success Color"
 msgstr ""
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:203
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:274
-msgid "Success End Color"
-msgstr ""
-
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:202
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:273
-msgid "Success Mid Color"
-msgstr ""
-
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:199
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:266
-msgid "Success Shadow Color"
-msgstr ""
-
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:201
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:271
-msgid "Success Start Color"
-msgstr ""
-
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:190
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:257
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:359
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:371
 msgid "Success Text Color"
 msgstr ""
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:216
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:287
-msgid "Warning Border Color"
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:487
+msgid "Title"
 msgstr ""
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:211
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:282
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:491
+msgid "Title is required"
+msgstr ""
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:471
+msgid "Toolbar Items"
+msgstr ""
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:493
+msgid "URL"
+msgstr ""
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:497
+msgid "URL is required"
+msgstr ""
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:157
+msgid "Upload Icon"
+msgstr ""
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:159
+msgid "Upload Icon..."
+msgstr ""
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:458
+msgid ""
+"Upload and manage custom icons for toolbar items. Icons are stored in <code>/"
+"www/luci-static/aurora/images/</code>."
+msgstr ""
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:194
+msgid "Upload error: %s"
+msgstr ""
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:202
+msgid "Uploaded Icons"
+msgstr ""
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:362
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:374
 msgid "Warning Color"
 msgstr ""
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:225
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:300
-msgid "Warning End Color"
-msgstr ""
-
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:224
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:299
-msgid "Warning Mid Color"
-msgstr ""
-
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:221
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:292
-msgid "Warning Shadow Color"
-msgstr ""
-
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:223
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:297
-msgid "Warning Start Color"
-msgstr ""
-
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:212
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:283
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:363
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:378
 msgid "Warning Text Color"
 msgstr ""

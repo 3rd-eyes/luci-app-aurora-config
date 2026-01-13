@@ -1,0 +1,103 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:510
+msgid "(No icons uploaded)"
+msgstr "(업로드된 아이콘 없음)"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:326
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:344
+msgid "Accent Color"
+msgstr "강조 색상"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:327
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:345
+msgid "Accent Text Color"
+msgstr "강조 텍스트 색상"
+
+#: applications/luci-app-aurora-config/root/usr/share/luci/menu.d/luci-app-aurora.json:3
+msgid "Aurora Settings"
+msgstr "오로라 설정"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:393
+msgid "Aurora Theme Settings"
+msgstr "오로라 테마 설정"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:277
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:304
+msgid "Background End Color"
+msgstr "배경 끝 색상"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:272
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:299
+msgid "Background Mid Color"
+msgstr "배경 중간 색상"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:267
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:294
+msgid "Background Start Color"
+msgstr "배경 시작 색상"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:439
+msgid "Boxed Dropdown"
+msgstr "박스형 드롭다운"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:489
+msgid "Button Title"
+msgstr "버튼 제목"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:400
+msgid "Color"
+msgstr "색상"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:510
+msgid "Default"
+msgstr "기본값"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:511
+msgid "Description"
+msgstr "설명"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:512
+msgid "Enabled"
+msgstr "사용"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:513
+msgid "Icon"
+msgstr "아이콘"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:514
+msgid "Image"
+msgstr "이미지"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:515
+msgid "Link"
+msgstr "링크"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:516
+msgid "Position"
+msgstr "위치"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:517
+msgid "Sort"
+msgstr "정렬"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:518
+msgid "Target"
+msgstr "대상"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:519
+msgid "Title"
+msgstr "제목"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:520
+msgid "Type"
+msgstr "유형"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:521
+msgid "URL"
+msgstr "URL"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:522
+msgid "Width"
+msgstr "너비"

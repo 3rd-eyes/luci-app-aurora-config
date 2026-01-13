@@ -1,0 +1,159 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:510
+msgid "(No icons uploaded)"
+msgstr "(Tidak ada ikon yang diunggah)"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:326
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:344
+msgid "Accent Color"
+msgstr "Warna Aksen"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:327
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:345
+msgid "Accent Text Color"
+msgstr "Warna Teks Aksen"
+
+#: applications/luci-app-aurora-config/root/usr/share/luci/menu.d/luci-app-aurora.json:3
+msgid "Aurora Settings"
+msgstr "Pengaturan Aurora"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:393
+msgid "Aurora Theme Settings"
+msgstr "Pengaturan Tema Aurora"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:277
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:304
+msgid "Background End Color"
+msgstr "Warna Akhir Latar Belakang"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:272
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:299
+msgid "Background Mid Color"
+msgstr "Warna Tengah Latar Belakang"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:267
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:294
+msgid "Background Start Color"
+msgstr "Warna Awal Latar Belakang"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:439
+msgid "Boxed Dropdown"
+msgstr "Dropdown Berbingkai"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:489
+msgid "Button Title"
+msgstr "Judul Tombol"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:400
+msgid "Color"
+msgstr "Warna"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:415
+msgid "Description"
+msgstr "Deskripsi"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:421
+msgid "Disable"
+msgstr "Nonaktifkan"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:427
+msgid "Dropdown"
+msgstr "Dropdown"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:433
+msgid "Dropdown Menu"
+msgstr "Menu Dropdown"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:445
+msgid "Enable"
+msgstr "Aktifkan"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:451
+msgid "Floating"
+msgstr "Mengambang"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:457
+msgid "Font"
+msgstr "Font"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:463
+msgid "Font Size"
+msgstr "Ukuran Font"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:469
+msgid "Header"
+msgstr "Kepala"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:475
+msgid "Icon"
+msgstr "Ikon"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:481
+msgid "Image"
+msgstr "Gambar"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:493
+msgid "Link"
+msgstr "Tautan"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:499
+msgid "Margin"
+msgstr "Margin"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:505
+msgid "Menu"
+msgstr "Menu"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:517
+msgid "Padding"
+msgstr "Padding"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:523
+msgid "Position"
+msgstr "Posisi"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:529
+msgid "Radius"
+msgstr "Radius"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:535
+msgid "Shadow"
+msgstr "Bayangan"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:541
+msgid "Size"
+msgstr "Ukuran"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:547
+msgid "Text"
+msgstr "Teks"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:553
+msgid "Text Color"
+msgstr "Warna Teks"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:559
+msgid "Title"
+msgstr "Judul"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:565
+msgid "Toggle"
+msgstr "Alihkan"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:571
+msgid "Tooltip"
+msgstr "Tooltip"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:577
+msgid "Type"
+msgstr "Tipe"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:583
+msgid "Value"
+msgstr "Nilai"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:589
+msgid "Width"
+msgstr "Lebar"

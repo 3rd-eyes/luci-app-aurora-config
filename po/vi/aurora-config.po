@@ -1,0 +1,507 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:510
+msgid "(No icons uploaded)"
+msgstr "(Không có biểu tượng nào được tải lên)"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:326
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:344
+msgid "Accent Color"
+msgstr "Màu nhấn"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:327
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:345
+msgid "Accent Text Color"
+msgstr "Màu văn bản nhấn"
+
+#: applications/luci-app-aurora-config/root/usr/share/luci/menu.d/luci-app-aurora.json:3
+msgid "Aurora Settings"
+msgstr "Cài đặt Aurora"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:393
+msgid "Aurora Theme Settings"
+msgstr "Cài đặt giao diện Aurora"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:277
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:304
+msgid "Background End Color"
+msgstr "Màu kết thúc nền"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:272
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:299
+msgid "Background Mid Color"
+msgstr "Màu giữa nền"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:267
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:294
+msgid "Background Start Color"
+msgstr "Màu bắt đầu nền"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:439
+msgid "Boxed Dropdown"
+msgstr "Hộp thả xuống"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:489
+msgid "Button Title"
+msgstr "Tiêu đề nút"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:400
+msgid "Color"
+msgstr "Màu sắc"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:510
+msgid "Default Icon"
+msgstr "Biểu tượng mặc định"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:511
+msgid "Description"
+msgstr "Mô tả"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:512
+msgid "Device Icon"
+msgstr "Biểu tượng thiết bị"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:513
+msgid "Download"
+msgstr "Tải về"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:514
+msgid "Firmware Version"
+msgstr "Phiên bản firmware"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:515
+msgid "Hostname"
+msgstr "Tên máy chủ"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:516
+msgid "IP Address"
+msgstr "Địa chỉ IP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:517
+msgid "Last Boot"
+msgstr "Khởi động lần cuối"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:518
+msgid "Load"
+msgstr "Tải"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:519
+msgid "Memory"
+msgstr "Bộ nhớ"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:520
+msgid "Model"
+msgstr "Mẫu"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:521
+msgid "Uptime"
+msgstr "Thời gian hoạt động"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:522
+msgid "Version"
+msgstr "Phiên bản"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:523
+msgid "Wireless"
+msgstr "Không dây"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:524
+msgid "Save"
+msgstr "Lưu"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:525
+msgid "Cancel"
+msgstr "Hủy bỏ"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:526
+msgid "Apply"
+msgstr "Áp dụng"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:527
+msgid "Reset"
+msgstr "Đặt lại"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:528
+msgid "Reboot"
+msgstr "Khởi động lại"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:529
+msgid "Shutdown"
+msgstr "Tắt máy"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:530
+msgid "Upgrade"
+msgstr "Nâng cấp"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:531
+msgid "Backup"
+msgstr "Sao lưu"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:532
+msgid "Restore"
+msgstr "Khôi phục"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:533
+msgid "Diagnostics"
+msgstr "Chẩn đoán"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:534
+msgid "Network"
+msgstr "Mạng"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:535
+msgid "Firewall"
+msgstr "Tường lửa"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:536
+msgid "VPN"
+msgstr "VPN"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:537
+msgid "DHCP"
+msgstr "DHCP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:538
+msgid "DNS"
+msgstr "DNS"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:539
+msgid "QoS"
+msgstr "QoS"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:540
+msgid "Port Forwarding"
+msgstr "Chuyển tiếp cổng"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:541
+msgid "DMZ"
+msgstr "DMZ"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:542
+msgid "MAC Filter"
+msgstr "Bộ lọc MAC"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:543
+msgid "IP Filter"
+msgstr "Bộ lọc IP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:544
+msgid "URL Filter"
+msgstr "Bộ lọc URL"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:545
+msgid "Keyword Filter"
+msgstr "Bộ lọc từ khóa"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:546
+msgid "Access Control"
+msgstr "Kiểm soát truy cập"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:547
+msgid "System"
+msgstr "Hệ thống"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:548
+msgid "Administration"
+msgstr "Quản trị"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:549
+msgid "Users"
+msgstr "Người dùng"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:550
+msgid "Groups"
+msgstr "Nhóm"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:551
+msgid "Services"
+msgstr "Dịch vụ"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:552
+msgid "Scheduled Tasks"
+msgstr "Công việc đã lên lịch"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:553
+msgid "System Log"
+msgstr "Nhật ký hệ thống"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:554
+msgid "Kernel Log"
+msgstr "Nhật ký kernel"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:555
+msgid "Package Management"
+msgstr "Quản lý gói"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:556
+msgid "Software Update"
+msgstr "Cập nhật phần mềm"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:557
+msgid "System Information"
+msgstr "Thông tin hệ thống"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:558
+msgid "Network Status"
+msgstr "Trạng thái mạng"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:559
+msgid "Wireless Status"
+msgstr "Trạng thái không dây"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:560
+msgid "Ethernet Status"
+msgstr "Trạng thái Ethernet"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:561
+msgid "VPN Status"
+msgstr "Trạng thái VPN"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:562
+msgid "DHCP Leases"
+msgstr "Bảng cấp phát DHCP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:563
+msgid "DNS Forwarder"
+msgstr "Chuyển tiếp DNS"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:564
+msgid "Dynamic DNS"
+msgstr "DNS động"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:565
+msgid "Static Routes"
+msgstr "Đường dẫn tĩnh"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:566
+msgid "Network Protocols"
+msgstr "Giao thức mạng"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:567
+msgid "Routing Table"
+msgstr "Bảng định tuyến"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:568
+msgid "Firewall Rules"
+msgstr "Quy tắc tường lửa"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:569
+msgid "VPN Pass-through"
+msgstr "Thông qua VPN"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:570
+msgid "MAC Address Clone"
+msgstr "Nhân bản địa chỉ MAC"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:571
+msgid "IP Address Clone"
+msgstr "Nhân bản địa chỉ IP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:572
+msgid "DDNS Client"
+msgstr "Khách hàng DDNS"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:573
+msgid "NTP Client"
+msgstr "Khách hàng NTP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:574
+msgid "UPnP"
+msgstr "UPnP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:575
+msgid "SNMP"
+msgstr "SNMP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:576
+msgid "Syslog"
+msgstr "Syslog"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:577
+msgid "SSH"
+msgstr "SSH"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:578
+msgid "Telnet"
+msgstr "Telnet"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:579
+msgid "FTP"
+msgstr "FTP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:580
+msgid "TFTP"
+msgstr "TFTP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:581
+msgid "HTTP"
+msgstr "HTTP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:582
+msgid "HTTPS"
+msgstr "HTTPS"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:583
+msgid "SMB"
+msgstr "SMB"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:584
+msgid "AFP"
+msgstr "AFP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:585
+msgid "NFS"
+msgstr "NFS"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:586
+msgid "iSCSI"
+msgstr "iSCSI"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:587
+msgid "L2TP"
+msgstr "L2TP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:588
+msgid "PPTP"
+msgstr "PPTP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:589
+msgid "SIP"
+msgstr "SIP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:590
+msgid "H323"
+msgstr "H323"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:591
+msgid "RTSP"
+msgstr "RTSP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:592
+msgid "RTP"
+msgstr "RTP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:593
+msgid "RTCP"
+msgstr "RTCP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:594
+msgid "SCTP"
+msgstr "SCTP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:595
+msgid "DCCP"
+msgstr "DCCP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:596
+msgid "ECN"
+msgstr "ECN"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:597
+msgid "DSCP"
+msgstr "DSCP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:598
+msgid "IPSec"
+msgstr "IPSec"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:599
+msgid "GRE"
+msgstr "GRE"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:600
+msgid "MPLS"
+msgstr "MPLS"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:601
+msgid "VLAN"
+msgstr "VLAN"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:602
+msgid "Ethernet"
+msgstr "Ethernet"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:603
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:604
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:605
+msgid "Zigbee"
+msgstr "Zigbee"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:606
+msgid "Thread"
+msgstr "Thread"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:607
+msgid "LoRa"
+msgstr "LoRa"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:608
+msgid "Sigfox"
+msgstr "Sigfox"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:609
+msgid "NB-IoT"
+msgstr "NB-IoT"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:610
+msgid "Cat-M1"
+msgstr "Cat-M1"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:611
+msgid "eMTC"
+msgstr "eMTC"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:612
+msgid "LTE"
+msgstr "LTE"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:613
+msgid "5G"
+msgstr "5G"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:614
+msgid "WiMAX"
+msgstr "WiMAX"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:615
+msgid "Satellite"
+msgstr "Vệ tinh"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:616
+msgid "Cable"
+msgstr "Cáp"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:617
+msgid "DSL"
+msgstr "DSL"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:618
+msgid "Fiber"
+msgstr "Sợi quang"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:619
+msgid "Copper"
+msgstr "Đồng"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:620
+msgid "Wireless Mode"
+msgstr "Chế độ không dây"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:621
+msgid "Channel Width"
+msgstr "Băng thông kênh"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:622
+msgid "Frequency"
+msgstr "Tần số"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:623
+msgid "Transmit Power"
+msgstr "Công suất phát"

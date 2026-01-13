@@ -390,9 +390,9 @@ return view.extend({
 
     const m = new form.Map(
       "aurora",
-      _("Aurora Theme Configuration"),
+      _("Aurora Theme Settings"),
       _(
-        'Configuration plugin for <a href="https://github.com/eamonxg/luci-theme-aurora" target="_blank">the Aurora theme</a>.'
+        'Customize the appearance and behavior of <a href="https://github.com/eamonxg/luci-theme-aurora" target="_blank">the Aurora theme</a>.'
       )
     );
     const s = m.section(form.NamedSection, "theme", "aurora");

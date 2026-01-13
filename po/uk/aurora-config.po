@@ -1,0 +1,1485 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:510
+msgid "(No icons uploaded)"
+msgstr "(Немає завантажених значків)"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:326
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:344
+msgid "Accent Color"
+msgstr "Колір акценту"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:327
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:345
+msgid "Accent Text Color"
+msgstr "Колір тексту акценту"
+
+#: applications/luci-app-aurora-config/root/usr/share/luci/menu.d/luci-app-aurora.json:3
+msgid "Aurora Settings"
+msgstr "Налаштування Aurora"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:393
+msgid "Aurora Theme Settings"
+msgstr "Налаштування теми Aurora"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:277
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:304
+msgid "Background End Color"
+msgstr "Кінцевий колір фону"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:272
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:299
+msgid "Background Mid Color"
+msgstr "Середній колір фону"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:267
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:294
+msgid "Background Start Color"
+msgstr "Початковий колір фону"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:439
+msgid "Boxed Dropdown"
+msgstr "Випадаюче меню в рамці"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:489
+msgid "Button Title"
+msgstr "Назва кнопки"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:400
+msgid "Color"
+msgstr "Колір"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:510
+msgid "Content"
+msgstr "Зміст"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:511
+msgid "Description"
+msgstr "Опис"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:512
+msgid "Keywords"
+msgstr "Ключові слова"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:513
+msgid "Robots"
+msgstr "Роботи"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:514
+msgid "Author"
+msgstr "Автор"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:515
+msgid "Copyright"
+msgstr "Авторське право"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:516
+msgid "Language"
+msgstr "Мова"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:517
+msgid "Charset"
+msgstr "Кодування"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:518
+msgid "Viewport"
+msgstr "Вікно перегляду"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:519
+msgid "Refresh"
+msgstr "Оновити"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:520
+msgid "Pragma"
+msgstr "Програма"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:521
+msgid "Expires"
+msgstr "Термін дії"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:522
+msgid "Cache-Control"
+msgstr "Керування кешем"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:523
+msgid "X-UA-Compatible"
+msgstr "X-UA-Сумісність"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:524
+msgid "Content-Security-Policy"
+msgstr "Політика безпеки контенту"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:525
+msgid "Strict-Transport-Security"
+msgstr "Сувора безпека транспорту"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:526
+msgid "Public-Key-Pins"
+msgstr "Публічні ключі"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:527
+msgid "Feature-Policy"
+msgstr "Політика функцій"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:528
+msgid "Referrer-Policy"
+msgstr "Політика посилань"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:529
+msgid "Cross-Origin-Embedder-Policy"
+msgstr "Політика вбудовування з інших джерел"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:530
+msgid "Cross-Origin-Opener-Policy"
+msgstr "Політика відкривача з інших джерел"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:531
+msgid "Cross-Origin-Resource-Policy"
+msgstr "Політика ресурсів з інших джерел"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:532
+msgid "Access-Control-Allow-Origin"
+msgstr "Дозволити доступ з інших джерел"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:533
+msgid "Access-Control-Allow-Methods"
+msgstr "Дозволити методи"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:534
+msgid "Access-Control-Allow-Headers"
+msgstr "Дозволити заголовки"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:535
+msgid "Access-Control-Expose-Headers"
+msgstr "Відкрити заголовки"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:536
+msgid "Access-Control-Max-Age"
+msgstr "Максимальний вік доступу"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:537
+msgid "Access-Control-Allow-Credentials"
+msgstr "Дозволити облікові дані"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:538
+msgid "Origin"
+msgstr "Походження"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:539
+msgid "Credentials"
+msgstr "Облікові дані"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:540
+msgid "Methods"
+msgstr "Методи"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:541
+msgid "Headers"
+msgstr "Заголовки"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:542
+msgid "Expose-Headers"
+msgstr "Відкрити заголовки"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:543
+msgid "Max-Age"
+msgstr "Максимальний вік"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:544
+msgid "Allow-Credentials"
+msgstr "Дозволити облікові дані"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:545
+msgid "DNT"
+msgstr "DNT"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:546
+msgid "X-Requested-With"
+msgstr "X-Requested-With"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:547
+msgid "X-Forwarded-For"
+msgstr "X-Forwarded-For"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:548
+msgid "X-Forwarded-Proto"
+msgstr "X-Forwarded-Proto"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:549
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:550
+msgid "X-XSS-Protection"
+msgstr "X-XSS-Protection"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:551
+msgid "X-Content-Type-Options"
+msgstr "X-Content-Type-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:552
+msgid "X-Permitted-Cross-Domain-Policies"
+msgstr "X-Permitted-Cross-Domain-Policies"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:553
+msgid "X-DNS-Prefetch-Control"
+msgstr "X-DNS-Prefetch-Control"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:554
+msgid "X-Download-Options"
+msgstr "X-Download-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:555
+msgid "X-Content-Security-Policy"
+msgstr "X-Content-Security-Policy"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:556
+msgid "X-WebKit-CSP"
+msgstr "X-WebKit-CSP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:557
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:558
+msgid "X-XSS-Protection"
+msgstr "X-XSS-Protection"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:559
+msgid "X-Content-Type-Options"
+msgstr "X-Content-Type-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:560
+msgid "X-Permitted-Cross-Domain-Policies"
+msgstr "X-Permitted-Cross-Domain-Policies"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:561
+msgid "X-DNS-Prefetch-Control"
+msgstr "X-DNS-Prefetch-Control"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:562
+msgid "X-Download-Options"
+msgstr "X-Download-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:563
+msgid "X-Content-Security-Policy"
+msgstr "X-Content-Security-Policy"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:564
+msgid "X-WebKit-CSP"
+msgstr "X-WebKit-CSP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:565
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:566
+msgid "X-XSS-Protection"
+msgstr "X-XSS-Protection"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:567
+msgid "X-Content-Type-Options"
+msgstr "X-Content-Type-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:568
+msgid "X-Permitted-Cross-Domain-Policies"
+msgstr "X-Permitted-Cross-Domain-Policies"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:569
+msgid "X-DNS-Prefetch-Control"
+msgstr "X-DNS-Prefetch-Control"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:570
+msgid "X-Download-Options"
+msgstr "X-Download-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:571
+msgid "X-Content-Security-Policy"
+msgstr "X-Content-Security-Policy"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:572
+msgid "X-WebKit-CSP"
+msgstr "X-WebKit-CSP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:573
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:574
+msgid "X-XSS-Protection"
+msgstr "X-XSS-Protection"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:575
+msgid "X-Content-Type-Options"
+msgstr "X-Content-Type-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:576
+msgid "X-Permitted-Cross-Domain-Policies"
+msgstr "X-Permitted-Cross-Domain-Policies"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:577
+msgid "X-DNS-Prefetch-Control"
+msgstr "X-DNS-Prefetch-Control"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:578
+msgid "X-Download-Options"
+msgstr "X-Download-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:579
+msgid "X-Content-Security-Policy"
+msgstr "X-Content-Security-Policy"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:580
+msgid "X-WebKit-CSP"
+msgstr "X-WebKit-CSP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:581
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:582
+msgid "X-XSS-Protection"
+msgstr "X-XSS-Protection"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:583
+msgid "X-Content-Type-Options"
+msgstr "X-Content-Type-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:584
+msgid "X-Permitted-Cross-Domain-Policies"
+msgstr "X-Permitted-Cross-Domain-Policies"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:585
+msgid "X-DNS-Prefetch-Control"
+msgstr "X-DNS-Prefetch-Control"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:586
+msgid "X-Download-Options"
+msgstr "X-Download-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:587
+msgid "X-Content-Security-Policy"
+msgstr "X-Content-Security-Policy"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:588
+msgid "X-WebKit-CSP"
+msgstr "X-WebKit-CSP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:589
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:590
+msgid "X-XSS-Protection"
+msgstr "X-XSS-Protection"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:591
+msgid "X-Content-Type-Options"
+msgstr "X-Content-Type-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:592
+msgid "X-Permitted-Cross-Domain-Policies"
+msgstr "X-Permitted-Cross-Domain-Policies"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:593
+msgid "X-DNS-Prefetch-Control"
+msgstr "X-DNS-Prefetch-Control"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:594
+msgid "X-Download-Options"
+msgstr "X-Download-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:595
+msgid "X-Content-Security-Policy"
+msgstr "X-Content-Security-Policy"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:596
+msgid "X-WebKit-CSP"
+msgstr "X-WebKit-CSP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:597
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:598
+msgid "X-XSS-Protection"
+msgstr "X-XSS-Protection"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:599
+msgid "X-Content-Type-Options"
+msgstr "X-Content-Type-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:600
+msgid "X-Permitted-Cross-Domain-Policies"
+msgstr "X-Permitted-Cross-Domain-Policies"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:601
+msgid "X-DNS-Prefetch-Control"
+msgstr "X-DNS-Prefetch-Control"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:602
+msgid "X-Download-Options"
+msgstr "X-Download-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:603
+msgid "X-Content-Security-Policy"
+msgstr "X-Content-Security-Policy"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:604
+msgid "X-WebKit-CSP"
+msgstr "X-WebKit-CSP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:605
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:606
+msgid "X-XSS-Protection"
+msgstr "X-XSS-Protection"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:607
+msgid "X-Content-Type-Options"
+msgstr "X-Content-Type-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:608
+msgid "X-Permitted-Cross-Domain-Policies"
+msgstr "X-Permitted-Cross-Domain-Policies"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:609
+msgid "X-DNS-Prefetch-Control"
+msgstr "X-DNS-Prefetch-Control"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:610
+msgid "X-Download-Options"
+msgstr "X-Download-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:611
+msgid "X-Content-Security-Policy"
+msgstr "X-Content-Security-Policy"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:612
+msgid "X-WebKit-CSP"
+msgstr "X-WebKit-CSP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:613
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:614
+msgid "X-XSS-Protection"
+msgstr "X-XSS-Protection"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:615
+msgid "X-Content-Type-Options"
+msgstr "X-Content-Type-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:616
+msgid "X-Permitted-Cross-Domain-Policies"
+msgstr "X-Permitted-Cross-Domain-Policies"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:617
+msgid "X-DNS-Prefetch-Control"
+msgstr "X-DNS-Prefetch-Control"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:618
+msgid "X-Download-Options"
+msgstr "X-Download-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:619
+msgid "X-Content-Security-Policy"
+msgstr "X-Content-Security-Policy"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:620
+msgid "X-WebKit-CSP"
+msgstr "X-WebKit-CSP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:621
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:622
+msgid "X-XSS-Protection"
+msgstr "X-XSS-Protection"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:623
+msgid "X-Content-Type-Options"
+msgstr "X-Content-Type-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:624
+msgid "X-Permitted-Cross-Domain-Policies"
+msgstr "X-Permitted-Cross-Domain-Policies"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:625
+msgid "X-DNS-Prefetch-Control"
+msgstr "X-DNS-Prefetch-Control"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:626
+msgid "X-Download-Options"
+msgstr "X-Download-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:627
+msgid "X-Content-Security-Policy"
+msgstr "X-Content-Security-Policy"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:628
+msgid "X-WebKit-CSP"
+msgstr "X-WebKit-CSP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:629
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:630
+msgid "X-XSS-Protection"
+msgstr "X-XSS-Protection"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:631
+msgid "X-Content-Type-Options"
+msgstr "X-Content-Type-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:632
+msgid "X-Permitted-Cross-Domain-Policies"
+msgstr "X-Permitted-Cross-Domain-Policies"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:633
+msgid "X-DNS-Prefetch-Control"
+msgstr "X-DNS-Prefetch-Control"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:634
+msgid "X-Download-Options"
+msgstr "X-Download-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:635
+msgid "X-Content-Security-Policy"
+msgstr "X-Content-Security-Policy"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:636
+msgid "X-WebKit-CSP"
+msgstr "X-WebKit-CSP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:637
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:638
+msgid "X-XSS-Protection"
+msgstr "X-XSS-Protection"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:639
+msgid "X-Content-Type-Options"
+msgstr "X-Content-Type-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:640
+msgid "X-Permitted-Cross-Domain-Policies"
+msgstr "X-Permitted-Cross-Domain-Policies"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:641
+msgid "X-DNS-Prefetch-Control"
+msgstr "X-DNS-Prefetch-Control"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:642
+msgid "X-Download-Options"
+msgstr "X-Download-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:643
+msgid "X-Content-Security-Policy"
+msgstr "X-Content-Security-Policy"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:644
+msgid "X-WebKit-CSP"
+msgstr "X-WebKit-CSP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:645
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:646
+msgid "X-XSS-Protection"
+msgstr "X-XSS-Protection"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:647
+msgid "X-Content-Type-Options"
+msgstr "X-Content-Type-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:648
+msgid "X-Permitted-Cross-Domain-Policies"
+msgstr "X-Permitted-Cross-Domain-Policies"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:649
+msgid "X-DNS-Prefetch-Control"
+msgstr "X-DNS-Prefetch-Control"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:650
+msgid "X-Download-Options"
+msgstr "X-Download-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:651
+msgid "X-Content-Security-Policy"
+msgstr "X-Content-Security-Policy"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:652
+msgid "X-WebKit-CSP"
+msgstr "X-WebKit-CSP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:653
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:654
+msgid "X-XSS-Protection"
+msgstr "X-XSS-Protection"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:655
+msgid "X-Content-Type-Options"
+msgstr "X-Content-Type-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:656
+msgid "X-Permitted-Cross-Domain-Policies"
+msgstr "X-Permitted-Cross-Domain-Policies"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:657
+msgid "X-DNS-Prefetch-Control"
+msgstr "X-DNS-Prefetch-Control"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:658
+msgid "X-Download-Options"
+msgstr "X-Download-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:659
+msgid "X-Content-Security-Policy"
+msgstr "X-Content-Security-Policy"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:660
+msgid "X-WebKit-CSP"
+msgstr "X-WebKit-CSP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:661
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:662
+msgid "X-XSS-Protection"
+msgstr "X-XSS-Protection"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:663
+msgid "X-Content-Type-Options"
+msgstr "X-Content-Type-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:664
+msgid "X-Permitted-Cross-Domain-Policies"
+msgstr "X-Permitted-Cross-Domain-Policies"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:665
+msgid "X-DNS-Prefetch-Control"
+msgstr "X-DNS-Prefetch-Control"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:666
+msgid "X-Download-Options"
+msgstr "X-Download-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:667
+msgid "X-Content-Security-Policy"
+msgstr "X-Content-Security-Policy"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:668
+msgid "X-WebKit-CSP"
+msgstr "X-WebKit-CSP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:669
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:670
+msgid "X-XSS-Protection"
+msgstr "X-XSS-Protection"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:671
+msgid "X-Content-Type-Options"
+msgstr "X-Content-Type-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:672
+msgid "X-Permitted-Cross-Domain-Policies"
+msgstr "X-Permitted-Cross-Domain-Policies"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:673
+msgid "X-DNS-Prefetch-Control"
+msgstr "X-DNS-Prefetch-Control"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:674
+msgid "X-Download-Options"
+msgstr "X-Download-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:675
+msgid "X-Content-Security-Policy"
+msgstr "X-Content-Security-Policy"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:676
+msgid "X-WebKit-CSP"
+msgstr "X-WebKit-CSP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:677
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:678
+msgid "X-XSS-Protection"
+msgstr "X-XSS-Protection"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:679
+msgid "X-Content-Type-Options"
+msgstr "X-Content-Type-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:680
+msgid "X-Permitted-Cross-Domain-Policies"
+msgstr "X-Permitted-Cross-Domain-Policies"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:681
+msgid "X-DNS-Prefetch-Control"
+msgstr "X-DNS-Prefetch-Control"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:682
+msgid "X-Download-Options"
+msgstr "X-Download-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:683
+msgid "X-Content-Security-Policy"
+msgstr "X-Content-Security-Policy"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:684
+msgid "X-WebKit-CSP"
+msgstr "X-WebKit-CSP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:685
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:686
+msgid "X-XSS-Protection"
+msgstr "X-XSS-Protection"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:687
+msgid "X-Content-Type-Options"
+msgstr "X-Content-Type-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:688
+msgid "X-Permitted-Cross-Domain-Policies"
+msgstr "X-Permitted-Cross-Domain-Policies"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:689
+msgid "X-DNS-Prefetch-Control"
+msgstr "X-DNS-Prefetch-Control"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:690
+msgid "X-Download-Options"
+msgstr "X-Download-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:691
+msgid "X-Content-Security-Policy"
+msgstr "X-Content-Security-Policy"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:692
+msgid "X-WebKit-CSP"
+msgstr "X-WebKit-CSP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:693
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:694
+msgid "X-XSS-Protection"
+msgstr "X-XSS-Protection"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:695
+msgid "X-Content-Type-Options"
+msgstr "X-Content-Type-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:696
+msgid "X-Permitted-Cross-Domain-Policies"
+msgstr "X-Permitted-Cross-Domain-Policies"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:697
+msgid "X-DNS-Prefetch-Control"
+msgstr "X-DNS-Prefetch-Control"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:698
+msgid "X-Download-Options"
+msgstr "X-Download-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:699
+msgid "X-Content-Security-Policy"
+msgstr "X-Content-Security-Policy"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:700
+msgid "X-WebKit-CSP"
+msgstr "X-WebKit-CSP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:701
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:702
+msgid "X-XSS-Protection"
+msgstr "X-XSS-Protection"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:703
+msgid "X-Content-Type-Options"
+msgstr "X-Content-Type-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:704
+msgid "X-Permitted-Cross-Domain-Policies"
+msgstr "X-Permitted-Cross-Domain-Policies"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:705
+msgid "X-DNS-Prefetch-Control"
+msgstr "X-DNS-Prefetch-Control"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:706
+msgid "X-Download-Options"
+msgstr "X-Download-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:707
+msgid "X-Content-Security-Policy"
+msgstr "X-Content-Security-Policy"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:708
+msgid "X-WebKit-CSP"
+msgstr "X-WebKit-CSP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:709
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:710
+msgid "X-XSS-Protection"
+msgstr "X-XSS-Protection"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:711
+msgid "X-Content-Type-Options"
+msgstr "X-Content-Type-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:712
+msgid "X-Permitted-Cross-Domain-Policies"
+msgstr "X-Permitted-Cross-Domain-Policies"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:713
+msgid "X-DNS-Prefetch-Control"
+msgstr "X-DNS-Prefetch-Control"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:714
+msgid "X-Download-Options"
+msgstr "X-Download-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:715
+msgid "X-Content-Security-Policy"
+msgstr "X-Content-Security-Policy"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:716
+msgid "X-WebKit-CSP"
+msgstr "X-WebKit-CSP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:717
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:718
+msgid "X-XSS-Protection"
+msgstr "X-XSS-Protection"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:719
+msgid "X-Content-Type-Options"
+msgstr "X-Content-Type-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:720
+msgid "X-Permitted-Cross-Domain-Policies"
+msgstr "X-Permitted-Cross-Domain-Policies"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:721
+msgid "X-DNS-Prefetch-Control"
+msgstr "X-DNS-Prefetch-Control"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:722
+msgid "X-Download-Options"
+msgstr "X-Download-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:723
+msgid "X-Content-Security-Policy"
+msgstr "X-Content-Security-Policy"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:724
+msgid "X-WebKit-CSP"
+msgstr "X-WebKit-CSP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:725
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:726
+msgid "X-XSS-Protection"
+msgstr "X-XSS-Protection"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:727
+msgid "X-Content-Type-Options"
+msgstr "X-Content-Type-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:728
+msgid "X-Permitted-Cross-Domain-Policies"
+msgstr "X-Permitted-Cross-Domain-Policies"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:729
+msgid "X-DNS-Prefetch-Control"
+msgstr "X-DNS-Prefetch-Control"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:730
+msgid "X-Download-Options"
+msgstr "X-Download-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:731
+msgid "X-Content-Security-Policy"
+msgstr "X-Content-Security-Policy"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:732
+msgid "X-WebKit-CSP"
+msgstr "X-WebKit-CSP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:733
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:734
+msgid "X-XSS-Protection"
+msgstr "X-XSS-Protection"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:735
+msgid "X-Content-Type-Options"
+msgstr "X-Content-Type-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:736
+msgid "X-Permitted-Cross-Domain-Policies"
+msgstr "X-Permitted-Cross-Domain-Policies"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:737
+msgid "X-DNS-Prefetch-Control"
+msgstr "X-DNS-Prefetch-Control"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:738
+msgid "X-Download-Options"
+msgstr "X-Download-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:739
+msgid "X-Content-Security-Policy"
+msgstr "X-Content-Security-Policy"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:740
+msgid "X-WebKit-CSP"
+msgstr "X-WebKit-CSP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:741
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:742
+msgid "X-XSS-Protection"
+msgstr "X-XSS-Protection"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:743
+msgid "X-Content-Type-Options"
+msgstr "X-Content-Type-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:744
+msgid "X-Permitted-Cross-Domain-Policies"
+msgstr "X-Permitted-Cross-Domain-Policies"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:745
+msgid "X-DNS-Prefetch-Control"
+msgstr "X-DNS-Prefetch-Control"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:746
+msgid "X-Download-Options"
+msgstr "X-Download-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:747
+msgid "X-Content-Security-Policy"
+msgstr "X-Content-Security-Policy"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:748
+msgid "X-WebKit-CSP"
+msgstr "X-WebKit-CSP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:749
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:750
+msgid "X-XSS-Protection"
+msgstr "X-XSS-Protection"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:751
+msgid "X-Content-Type-Options"
+msgstr "X-Content-Type-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:752
+msgid "X-Permitted-Cross-Domain-Policies"
+msgstr "X-Permitted-Cross-Domain-Policies"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:753
+msgid "X-DNS-Prefetch-Control"
+msgstr "X-DNS-Prefetch-Control"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:754
+msgid "X-Download-Options"
+msgstr "X-Download-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:755
+msgid "X-Content-Security-Policy"
+msgstr "X-Content-Security-Policy"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:756
+msgid "X-WebKit-CSP"
+msgstr "X-WebKit-CSP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:757
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:758
+msgid "X-XSS-Protection"
+msgstr "X-XSS-Protection"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:759
+msgid "X-Content-Type-Options"
+msgstr "X-Content-Type-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:760
+msgid "X-Permitted-Cross-Domain-Policies"
+msgstr "X-Permitted-Cross-Domain-Policies"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:761
+msgid "X-DNS-Prefetch-Control"
+msgstr "X-DNS-Prefetch-Control"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:762
+msgid "X-Download-Options"
+msgstr "X-Download-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:763
+msgid "X-Content-Security-Policy"
+msgstr "X-Content-Security-Policy"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:764
+msgid "X-WebKit-CSP"
+msgstr "X-WebKit-CSP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:765
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:766
+msgid "X-XSS-Protection"
+msgstr "X-XSS-Protection"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:767
+msgid "X-Content-Type-Options"
+msgstr "X-Content-Type-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:768
+msgid "X-Permitted-Cross-Domain-Policies"
+msgstr "X-Permitted-Cross-Domain-Policies"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:769
+msgid "X-DNS-Prefetch-Control"
+msgstr "X-DNS-Prefetch-Control"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:770
+msgid "X-Download-Options"
+msgstr "X-Download-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:771
+msgid "X-Content-Security-Policy"
+msgstr "X-Content-Security-Policy"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:772
+msgid "X-WebKit-CSP"
+msgstr "X-WebKit-CSP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:773
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:774
+msgid "X-XSS-Protection"
+msgstr "X-XSS-Protection"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:775
+msgid "X-Content-Type-Options"
+msgstr "X-Content-Type-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:776
+msgid "X-Permitted-Cross-Domain-Policies"
+msgstr "X-Permitted-Cross-Domain-Policies"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:777
+msgid "X-DNS-Prefetch-Control"
+msgstr "X-DNS-Prefetch-Control"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:778
+msgid "X-Download-Options"
+msgstr "X-Download-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:779
+msgid "X-Content-Security-Policy"
+msgstr "X-Content-Security-Policy"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:780
+msgid "X-WebKit-CSP"
+msgstr "X-WebKit-CSP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:781
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:782
+msgid "X-XSS-Protection"
+msgstr "X-XSS-Protection"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:783
+msgid "X-Content-Type-Options"
+msgstr "X-Content-Type-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:784
+msgid "X-Permitted-Cross-Domain-Policies"
+msgstr "X-Permitted-Cross-Domain-Policies"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:785
+msgid "X-DNS-Prefetch-Control"
+msgstr "X-DNS-Prefetch-Control"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:786
+msgid "X-Download-Options"
+msgstr "X-Download-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:787
+msgid "X-Content-Security-Policy"
+msgstr "X-Content-Security-Policy"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:788
+msgid "X-WebKit-CSP"
+msgstr "X-WebKit-CSP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:789
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:790
+msgid "X-XSS-Protection"
+msgstr "X-XSS-Protection"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:791
+msgid "X-Content-Type-Options"
+msgstr "X-Content-Type-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:792
+msgid "X-Permitted-Cross-Domain-Policies"
+msgstr "X-Permitted-Cross-Domain-Policies"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:793
+msgid "X-DNS-Prefetch-Control"
+msgstr "X-DNS-Prefetch-Control"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:794
+msgid "X-Download-Options"
+msgstr "X-Download-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:795
+msgid "X-Content-Security-Policy"
+msgstr "X-Content-Security-Policy"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:796
+msgid "X-WebKit-CSP"
+msgstr "X-WebKit-CSP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:797
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:798
+msgid "X-XSS-Protection"
+msgstr "X-XSS-Protection"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:799
+msgid "X-Content-Type-Options"
+msgstr "X-Content-Type-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:800
+msgid "X-Permitted-Cross-Domain-Policies"
+msgstr "X-Permitted-Cross-Domain-Policies"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:801
+msgid "X-DNS-Prefetch-Control"
+msgstr "X-DNS-Prefetch-Control"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:802
+msgid "X-Download-Options"
+msgstr "X-Download-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:803
+msgid "X-Content-Security-Policy"
+msgstr "X-Content-Security-Policy"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:804
+msgid "X-WebKit-CSP"
+msgstr "X-WebKit-CSP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:805
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:806
+msgid "X-XSS-Protection"
+msgstr "X-XSS-Protection"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:807
+msgid "X-Content-Type-Options"
+msgstr "X-Content-Type-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:808
+msgid "X-Permitted-Cross-Domain-Policies"
+msgstr "X-Permitted-Cross-Domain-Policies"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:809
+msgid "X-DNS-Prefetch-Control"
+msgstr "X-DNS-Prefetch-Control"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:810
+msgid "X-Download-Options"
+msgstr "X-Download-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:811
+msgid "X-Content-Security-Policy"
+msgstr "X-Content-Security-Policy"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:812
+msgid "X-WebKit-CSP"
+msgstr "X-WebKit-CSP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:813
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:814
+msgid "X-XSS-Protection"
+msgstr "X-XSS-Protection"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:815
+msgid "X-Content-Type-Options"
+msgstr "X-Content-Type-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:816
+msgid "X-Permitted-Cross-Domain-Policies"
+msgstr "X-Permitted-Cross-Domain-Policies"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:817
+msgid "X-DNS-Prefetch-Control"
+msgstr "X-DNS-Prefetch-Control"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:818
+msgid "X-Download-Options"
+msgstr "X-Download-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:819
+msgid "X-Content-Security-Policy"
+msgstr "X-Content-Security-Policy"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:820
+msgid "X-WebKit-CSP"
+msgstr "X-WebKit-CSP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:821
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:822
+msgid "X-XSS-Protection"
+msgstr "X-XSS-Protection"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:823
+msgid "X-Content-Type-Options"
+msgstr "X-Content-Type-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:824
+msgid "X-Permitted-Cross-Domain-Policies"
+msgstr "X-Permitted-Cross-Domain-Policies"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:825
+msgid "X-DNS-Prefetch-Control"
+msgstr "X-DNS-Prefetch-Control"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:826
+msgid "X-Download-Options"
+msgstr "X-Download-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:827
+msgid "X-Content-Security-Policy"
+msgstr "X-Content-Security-Policy"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:828
+msgid "X-WebKit-CSP"
+msgstr "X-WebKit-CSP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:829
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:830
+msgid "X-XSS-Protection"
+msgstr "X-XSS-Protection"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:831
+msgid "X-Content-Type-Options"
+msgstr "X-Content-Type-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:832
+msgid "X-Permitted-Cross-Domain-Policies"
+msgstr "X-Permitted-Cross-Domain-Policies"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:833
+msgid "X-DNS-Prefetch-Control"
+msgstr "X-DNS-Prefetch-Control"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:834
+msgid "X-Download-Options"
+msgstr "X-Download-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:835
+msgid "X-Content-Security-Policy"
+msgstr "X-Content-Security-Policy"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:836
+msgid "X-WebKit-CSP"
+msgstr "X-WebKit-CSP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:837
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:838
+msgid "X-XSS-Protection"
+msgstr "X-XSS-Protection"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:839
+msgid "X-Content-Type-Options"
+msgstr "X-Content-Type-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:840
+msgid "X-Permitted-Cross-Domain-Policies"
+msgstr "X-Permitted-Cross-Domain-Policies"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:841
+msgid "X-DNS-Prefetch-Control"
+msgstr "X-DNS-Prefetch-Control"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:842
+msgid "X-Download-Options"
+msgstr "X-Download-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:843
+msgid "X-Content-Security-Policy"
+msgstr "X-Content-Security-Policy"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:844
+msgid "X-WebKit-CSP"
+msgstr "X-WebKit-CSP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:845
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:846
+msgid "X-XSS-Protection"
+msgstr "X-XSS-Protection"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:847
+msgid "X-Content-Type-Options"
+msgstr "X-Content-Type-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:848
+msgid "X-Permitted-Cross-Domain-Policies"
+msgstr "X-Permitted-Cross-Domain-Policies"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:849
+msgid "X-DNS-Prefetch-Control"
+msgstr "X-DNS-Prefetch-Control"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:850
+msgid "X-Download-Options"
+msgstr "X-Download-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:851
+msgid "X-Content-Security-Policy"
+msgstr "X-Content-Security-Policy"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:852
+msgid "X-WebKit-CSP"
+msgstr "X-WebKit-CSP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:853
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:854
+msgid "X-XSS-Protection"
+msgstr "X-XSS-Protection"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:855
+msgid "X-Content-Type-Options"
+msgstr "X-Content-Type-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:856
+msgid "X-Permitted-Cross-Domain-Policies"
+msgstr "X-Permitted-Cross-Domain-Policies"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:857
+msgid "X-DNS-Prefetch-Control"
+msgstr "X-DNS-Prefetch-Control"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:858
+msgid "X-Download-Options"
+msgstr "X-Download-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:859
+msgid "X-Content-Security-Policy"
+msgstr "X-Content-Security-Policy"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:860
+msgid "X-WebKit-CSP"
+msgstr "X-WebKit-CSP"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:861
+msgid "X-Frame-Options"
+msgstr "X-Frame-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:862
+msgid "X-XSS-Protection"
+msgstr "X-XSS-Protection"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:863
+msgid "X-Content-Type-Options"
+msgstr "X-Content-Type-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:864
+msgid "X-Permitted-Cross-Domain-Policies"
+msgstr "X-Permitted-Cross-Domain-Policies"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:865
+msgid "X-DNS-Prefetch-Control"
+msgstr "X-DNS-Prefetch-Control"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:866
+msgid "X-Download-Options"
+msgstr "X-Download-Options"
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:867
+msgid "X-Content-Security-Policy"
+msgstr "X-Content-Security-Policy"
+
+#: applications/luci-app-aurora
