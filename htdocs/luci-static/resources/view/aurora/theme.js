@@ -30,6 +30,17 @@ const callRemoveIcon = rpc.declare({
   params: ["filename"],
 });
 
+const callCheckUpdates = rpc.declare({
+  object: "luci.aurora",
+  method: "check_updates",
+  params: ["force_refresh"],
+});
+
+const callGetInstalledVersions = rpc.declare({
+  object: "luci.aurora",
+  method: "get_installed_versions",
+});
+
 const renderColorPicker = function (option_index, section_id, in_table) {
   const el = form.Value.prototype.render.apply(this, [
     option_index,
@@ -256,9 +267,16 @@ const createIconList = (ss) => {
 };
 
 return view.extend({
-  load: () => uci.load("aurora"),
+  load: function () {
+    return Promise.all([
+      uci.load("aurora"),
+      L.resolveDefault(callGetInstalledVersions(), {}),
+    ]);
+  },
 
-  render() {
+  render(loadData) {
+    const installedVersions = loadData[1];
+
     const colorVars = {
       lightGradient: [
         [
@@ -388,13 +406,20 @@ return view.extend({
       ],
     };
 
-    const m = new form.Map(
-      "aurora",
-      _("Aurora Theme Settings"),
-      _(
-        'Customize the appearance and behavior of <a href="https://github.com/eamonxg/luci-theme-aurora" target="_blank">the Aurora theme</a>.'
-      )
-    );
+    const m = new form.Map("aurora", _("Aurora Theme Settings"));
+
+    const themeVersion =
+      installedVersions?.theme?.installed_version || "Unknown";
+    const configVersion =
+      installedVersions?.config?.installed_version || "Unknown";
+
+    m.description =
+      '<span id="aurora-versions">Theme: <span id="theme-version" class="label" style="cursor: pointer;">v' +
+      themeVersion +
+      '</span> | Config: <span id="config-version" class="label" style="cursor: pointer;">v' +
+      configVersion +
+      "</span></span>";
+
     const s = m.section(form.NamedSection, "theme", "aurora");
 
     s.tab("colors", _("Color"));
@@ -516,6 +541,55 @@ return view.extend({
     so.validate = (section_id, value) =>
       !value?.trim() ? _("Icon is required") : true;
 
-    return m.render();
+    return m.render().then(function (mapNode) {
+      requestAnimationFrame(function () {
+        const themeLabel = mapNode.querySelector("#theme-version");
+        const configLabel = mapNode.querySelector("#config-version");
+
+        if (themeLabel) {
+          themeLabel.onclick = function () {
+            window.location.href = L.url("admin/system/aurora/version");
+          };
+        }
+
+        if (configLabel) {
+          configLabel.onclick = function () {
+            window.location.href = L.url("admin/system/aurora/version");
+          };
+        }
+
+        L.resolveDefault(callCheckUpdates(0), null)
+          .then(function (updateData) {
+            if (updateData?.theme?.update_available && themeLabel) {
+              themeLabel.className = "label warning";
+              themeLabel.style.position = "relative";
+              themeLabel.style.paddingRight = "16px";
+              const redDot = document.createElement("span");
+              redDot.style.cssText =
+                "position: absolute; top: 3px; right: 4px; width: 6px; height: 6px; background: #f44; border-radius: 50%; animation: pulse 2s infinite;";
+              themeLabel.appendChild(redDot);
+            } else if (themeLabel) {
+              themeLabel.className = "label success";
+            }
+
+            if (updateData?.config?.update_available && configLabel) {
+              configLabel.className = "label warning";
+              configLabel.style.position = "relative";
+              configLabel.style.paddingRight = "16px";
+              const redDot = document.createElement("span");
+              redDot.style.cssText =
+                "position: absolute; top: 3px; right: 4px; width: 6px; height: 6px; background: #f44; border-radius: 50%; animation: pulse 2s infinite;";
+              configLabel.appendChild(redDot);
+            } else if (configLabel) {
+              configLabel.className = "label success";
+            }
+          })
+          .catch(function (err) {
+            console.error("Failed to check version:", err);
+          });
+      });
+
+      return mapNode;
+    });
   },
 });
