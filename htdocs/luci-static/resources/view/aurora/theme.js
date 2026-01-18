@@ -200,7 +200,7 @@ const renderSpacingControl = function (option_index, section_id, in_table) {
 const createIconUploadButton = (ss, tmpPath) => {
   const so = ss.option(form.Button, "_upload_icon", _("Upload Icon"));
   so.inputstyle = "add";
-  so.inputtitle = _("Upload Icon...");
+  so.inputtitle = _("Click me to upload");
   so.onclick = ui.createHandlerFn(this, () => {
     return ui
       .uploadFile(tmpPath, event.target)

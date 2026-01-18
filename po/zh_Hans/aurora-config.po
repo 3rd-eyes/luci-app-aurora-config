@@ -438,8 +438,8 @@ msgid "Upload Icon"
 msgstr "上传图标"
 
 #: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:203
-msgid "Upload Icon..."
-msgstr "正在上传图标..."
+msgid "Click me to upload"
+msgstr "点我上传"
 
 #: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:613
 msgid ""
