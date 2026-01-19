@@ -70,7 +70,7 @@ config toolbar_item
 	option title 'Software'
 	option url '/cgi-bin/luci/admin/system/package-manager'
 	option icon 'software.svg'
-	option enabled '1'
+	option enabled '0'
 
 config toolbar_item
 	option title 'Network'

@@ -7,7 +7,7 @@ LUCI_TITLE:=LuCI configuration app for luci-theme-aurora
 LUCI_DEPENDS:=+luci-base
 LUCI_PKGARCH:=all
 
-PKG_VERSION:=0.1.19
+PKG_VERSION:=0.1.20
 PKG_RELEASE:=20260119
 PKG_LICENSE:=Apache-2.0
 
