@@ -44,7 +44,7 @@
 
 ```sh
 cd /tmp
-wget -O luci-app-aurora-config.ipk https://github.com/eamonxg/luci-app-aurora-config/releases/latest/download/luci-app-aurora-config-0.2.0-r20260119_all.ipk
+wget -O luci-app-aurora-config.ipk https://github.com/eamonxg/luci-app-aurora-config/releases/latest/download/luci-app-aurora-config_0.2.0-r20260119_all.ipk
 opkg install luci-app-aurora-config.ipk
 ```
 
