@@ -209,41 +209,32 @@ const executeUpdate = (packageName, repo, version, packageFilter) => {
 };
 
 const createUpdateButton = (
-  pkg,
+  packageName,
   latest,
-  updateInfo,
+  updateAvailable,
   displayName,
-  installedVersion,
-  packageFilter,
-  i18nUpdateMap,
+  repo,
+  isI18n = false,
 ) => {
-  let hasUpdate = false;
+  if (updateAvailable && latest !== _("Unknown")) {
+    const btnAttrs = {
+      class: "btn cbi-button-positive",
+      "data-package": packageName,
+      "data-repo": repo,
+      "data-version": latest,
+      "data-display-name": displayName,
+      click: handleUpdate,
+    };
 
-  if (updateInfo && updateInfo[pkg.key]) {
-    if (packageFilter) {
-      hasUpdate = i18nUpdateMap && i18nUpdateMap[packageFilter] === "1";
-    } else {
-      hasUpdate = updateInfo[pkg.key].update_available;
+    if (isI18n) {
+      btnAttrs["data-package-filter"] = packageName;
     }
 
-    if (hasUpdate) {
-      const btnAttrs = {
-        class: "btn cbi-button-positive",
-        "data-package": pkg.key,
-        "data-repo": pkg.name,
-        "data-version": latest,
-        "data-display-name": displayName,
-        click: handleUpdate,
-      };
-      if (packageFilter) {
-        btnAttrs["data-package-filter"] = packageFilter;
-      }
-      return E("div", btnAttrs, _("Update"));
-    } else {
-      return E("span", { class: "label success" }, _("Up to date"));
-    }
+    return E("div", btnAttrs, _("Update"));
+  } else if (latest === _("Unknown") && updateAvailable === false) {
+    return E("span", { class: "label info" }, _("Unknown"));
   } else {
-    return E("span", { class: "label info" }, _("Checking for updates..."));
+    return E("span", { class: "label success" }, _("Up to date"));
   }
 };
 
@@ -261,58 +252,54 @@ const updateVersionTable = (updateInfo) => {
 
   packages.forEach((pkg) => {
     const installed = versionData.installed[pkg.key] || _("Not installed");
-    const i18nPackages = versionData.i18n[pkg.key] || "";
-    let latest = _("Checking for updates...");
-    const i18nUpdateMap = {};
+    let latest = updateInfo ? _("Unknown") : _("Checking for updates...");
+    let canUpdate = false;
 
     if (updateInfo && updateInfo[pkg.key]) {
       latest = updateInfo[pkg.key].latest_version || _("Unknown");
-
-      const i18nUpdates = updateInfo[pkg.key].i18n_updates || "";
-      if (i18nUpdates) {
-        i18nUpdates.split(",").forEach((item) => {
-          const parts = item.split(":");
-          if (parts.length === 2) {
-            i18nUpdateMap[parts[0]] = parts[1];
-          }
-        });
-      }
+      canUpdate = updateInfo[pkg.key].update_available;
     }
 
     rows.push([
       pkg.display,
       installed,
       latest,
-      createUpdateButton(
-        pkg,
-        latest,
-        updateInfo,
-        pkg.display,
-        installed,
-        null,
-        i18nUpdateMap,
-      ),
+      updateInfo
+        ? createUpdateButton(pkg.key, latest, canUpdate, pkg.display, pkg.name)
+        : E("span", { class: "label info" }, _("Checking...")),
     ]);
 
+    const i18nPackages = versionData.i18n[pkg.key] || "";
     if (i18nPackages) {
       i18nPackages.split(",").forEach((item) => {
         const parts = item.split(":");
         const i18nName = parts[0];
         const i18nVersion = parts[1] || installed;
 
+        let i18nLatest = updateInfo
+          ? _("Unknown")
+          : _("Checking for updates...");
+        let i18nCanUpdate = false;
+
+        if (updateInfo && updateInfo.i18n && updateInfo.i18n[i18nName]) {
+          i18nLatest = updateInfo.i18n[i18nName].latest_version || _("Unknown");
+          i18nCanUpdate = updateInfo.i18n[i18nName].update_available;
+        }
+
         rows.push([
           i18nName,
           i18nVersion,
-          latest,
-          createUpdateButton(
-            pkg,
-            latest,
-            updateInfo,
-            i18nName,
-            i18nVersion,
-            i18nName,
-            i18nUpdateMap,
-          ),
+          i18nLatest,
+          updateInfo
+            ? createUpdateButton(
+                i18nName,
+                i18nLatest,
+                i18nCanUpdate,
+                i18nName,
+                pkg.name,
+                true,
+              )
+            : E("span", { class: "label info" }, _("Checking...")),
         ]);
       });
     }
