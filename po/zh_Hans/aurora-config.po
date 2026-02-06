@@ -42,14 +42,6 @@ msgstr "应用配置？"
 msgid "Apply failed: %s"
 msgstr "应用失败：%s"
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:630
-msgid ""
-"Apply preset '%s'? This will switch the full theme style to the '%s' preset "
-"and overwrite the theme configuration file at /etc/config/aurora."
-msgstr ""
-"是否应用预设 '%s'？这将把完整主题样式切换为 '%s' 预设，并覆盖 /etc/config/"
-"aurora 处的主题配置文件。"
-
 #: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:641
 #: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:791
 msgid "Applying..."
@@ -177,10 +169,6 @@ msgstr "配置导入成功。"
 msgid "Confirm Reset"
 msgstr "确认重置"
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:1035
-msgid "Content Container Max Width"
-msgstr "内容容器最大宽度"
-
 #: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:822
 msgid "Continue"
 msgstr "继续"
@@ -196,15 +184,15 @@ msgstr ""
 "控制特定 UI 组件使用的颜色：顶部导航栏 (Header) 和盒式下拉菜单悬停背景 "
 "(Header Interactive)、进度条渐变 (Progress Bar Start/End)、日志面板 "
 "(Terminal)、覆盖遮罩 (Overlay)、链接 (Link)、选中单选框/复选框 (Input "
-"Checked)、工具提示气泡 (Tooltip) 以及分节标题背景 (Label Surface)。"
+"Checked)、工具提示气泡 (Tooltip) 以及分节标题表面 (Label Surface)。"
 
 #: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:1007
 msgid ""
 "Customize the layout of your interface. Control how the navigation menu "
 "displays, adjust the spacing between interface elements, and set the maximum "
-"width of the main content container."
+"width of the page content container."
 msgstr ""
-"自定义界面布局。控制导航菜单的显示方式，调整界面元素之间的间距，并设置主内容"
+"自定义界面布局。控制导航菜单的显示方式，调整界面元素之间的间距，并设置页面内容"
 "容器的最大宽度。"
 
 #: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:1151
@@ -478,6 +466,10 @@ msgstr "软件包名称"
 msgid "Page Background"
 msgstr "页面背景"
 
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:1035
+msgid "Page Container Max Width"
+msgstr "页面容器最大宽度"
+
 #: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:471
 msgid "Panel Background"
 msgstr "面板背景"
@@ -492,8 +484,8 @@ msgid ""
 "overwrite the theme configuration at /etc/config/aurora. Press 'Continue' to "
 "apply and reload, or 'Cancel' to abort."
 msgstr ""
-"请上传名为 “aurora” 的 Aurora 配置文件。这将覆盖 /etc/config/aurora 处的主题"
-"配置。按 “继续” 应用并重新加载，或按 “取消” 中止。"
+"请上传名为 'aurora' 的 Aurora 配置文件。这将覆盖 /etc/config/aurora 处的主题"
+"配置。按 '继续' 应用并重新加载，或按 '取消' 中止。"
 
 #: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:912
 msgid "Preset"
@@ -629,16 +621,16 @@ msgstr "终端前景"
 #: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:517
 msgid ""
 "The theme layout uses three layers: background (Background) → page container "
-"(Page) → panel card (Panel). These variables define each layer's background "
-"color (Background) and foreground/text color (Foreground). The primary color "
-"(Primary) is mainly used for focused/active states of inputs, selects, "
-"radios, checkboxes, and dropdowns, and is also used for key buttons and the "
-"page footer."
+"(Page) → panel card (Panel). The Base Colors variables define each layer's "
+"background color (Background) and foreground/text color (Foreground). The "
+"primary color (Primary) is mainly used for focused/active states of inputs, "
+"selects, radios, checkboxes, and dropdowns, and is also used for key buttons "
+"and the page footer."
 msgstr ""
 "主题布局使用三个图层：背景 (Background) → 页面容器 (Page) → 面板卡片 "
-"(Panel)。这些变量定义了每个图层的背景颜色 (Background) 和前景色/文本颜色 "
-"(Foreground)。主色 (Primary) 主要用于输入框、选择框、单选框、复选框和下拉菜"
-"单的焦点/激活状态，也用于关键按钮和页面页脚。"
+"(Panel)。基础颜色 (Base Colors) 变量定义了每个图层的背景颜色 (Background) 和"
+"前景色/文本颜色 (Foreground)。主色 (Primary) 主要用于输入框、选择框、单选框、"
+"复选框和下拉菜单的焦点/激活状态，也用于关键按钮和页面页脚。"
 
 #: applications/luci-app-aurora-config/root/usr/share/luci/menu.d/luci-app-aurora.json:13
 msgid "Theme Settings"
@@ -647,6 +639,12 @@ msgstr "主题设置"
 #: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:947
 msgid "Theme:"
 msgstr "主题："
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:630
+msgid ""
+"This will switch the theme style to the '%s' preset and overwrite the "
+"configuration in /etc/config/aurora. Do you want to continue?"
+msgstr "这将把主题样式切换为 '%s' 预设，并覆盖 /etc/config/aurora 中的配置。是否继续？"
 
 #: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:1149
 msgid "Toolbar Buttons"

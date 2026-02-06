@@ -514,7 +514,7 @@ return view.extend({
         key: "base",
         title: _("Base Colors"),
         description: _(
-          "The theme layout uses three layers: background (Background) → page container (Page) → panel card (Panel). These variables define each layer's background color (Background) and foreground/text color (Foreground). The primary color (Primary) is mainly used for focused/active states of inputs, selects, radios, checkboxes, and dropdowns, and is also used for key buttons and the page footer.",
+          "The theme layout uses three layers: background (Background) → page container (Page) → panel card (Panel). The Base Colors variables define each layer's background color (Background) and foreground/text color (Foreground). The primary color (Primary) is mainly used for focused/active states of inputs, selects, radios, checkboxes, and dropdowns, and is also used for key buttons and the page footer.",
         ),
         vars: baseColorVars,
       },
@@ -627,7 +627,7 @@ return view.extend({
                 "p",
                 {},
                 _(
-                  "Apply preset '%s'? This will switch the full theme style to the '%s' preset and overwrite the theme configuration file at /etc/config/aurora.",
+                  "This will switch the theme style to the '%s' preset and overwrite the configuration in /etc/config/aurora. Do you want to continue?",
                 ).format(presetLabel, presetLabel),
               ),
               E("div", { class: "right" }, [
@@ -1004,7 +1004,7 @@ return view.extend({
       "aurora",
       _("Layout"),
       _(
-        "Customize the layout of your interface. Control how the navigation menu displays, adjust the spacing between interface elements, and set the maximum width of the main content container.",
+        "Customize the layout of your interface. Control how the navigation menu displays, adjust the spacing between interface elements, and set the maximum width of the page content container.",
       ),
     );
     const structureSubsection = structureSection.subsection;
@@ -1032,7 +1032,7 @@ return view.extend({
     so = structureSubsection.option(
       form.Value,
       "struct_container_max_width",
-      _("Content Container Max Width"),
+      _("Page Container Max Width"),
     );
     so.default = "80rem";
     so.placeholder = "80rem";

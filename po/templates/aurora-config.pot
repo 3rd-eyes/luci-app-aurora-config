@@ -42,12 +42,6 @@ msgstr ""
 msgid "Apply failed: %s"
 msgstr ""
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:630
-msgid ""
-"Apply preset '%s'? This will switch the full theme style to the '%s' preset "
-"and overwrite the theme configuration file at /etc/config/aurora."
-msgstr ""
-
 #: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:641
 #: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:791
 msgid "Applying..."
@@ -171,10 +165,6 @@ msgstr ""
 msgid "Confirm Reset"
 msgstr ""
 
-#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:1035
-msgid "Content Container Max Width"
-msgstr ""
-
 #: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:822
 msgid "Continue"
 msgstr ""
@@ -192,7 +182,7 @@ msgstr ""
 msgid ""
 "Customize the layout of your interface. Control how the navigation menu "
 "displays, adjust the spacing between interface elements, and set the maximum "
-"width of the main content container."
+"width of the page content container."
 msgstr ""
 
 #: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:1151
@@ -464,6 +454,10 @@ msgstr ""
 msgid "Page Background"
 msgstr ""
 
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:1035
+msgid "Page Container Max Width"
+msgstr ""
+
 #: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:471
 msgid "Panel Background"
 msgstr ""
@@ -605,11 +599,11 @@ msgstr ""
 #: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:517
 msgid ""
 "The theme layout uses three layers: background (Background) → page container "
-"(Page) → panel card (Panel). These variables define each layer's background "
-"color (Background) and foreground/text color (Foreground). The primary color "
-"(Primary) is mainly used for focused/active states of inputs, selects, "
-"radios, checkboxes, and dropdowns, and is also used for key buttons and the "
-"page footer."
+"(Page) → panel card (Panel). The Base Colors variables define each layer's "
+"background color (Background) and foreground/text color (Foreground). The "
+"primary color (Primary) is mainly used for focused/active states of inputs, "
+"selects, radios, checkboxes, and dropdowns, and is also used for key buttons "
+"and the page footer."
 msgstr ""
 
 #: applications/luci-app-aurora-config/root/usr/share/luci/menu.d/luci-app-aurora.json:13
@@ -618,6 +612,12 @@ msgstr ""
 
 #: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:947
 msgid "Theme:"
+msgstr ""
+
+#: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:630
+msgid ""
+"This will switch the theme style to the '%s' preset and overwrite the "
+"configuration in /etc/config/aurora. Do you want to continue?"
 msgstr ""
 
 #: applications/luci-app-aurora-config/htdocs/luci-static/resources/view/aurora/theme.js:1149
