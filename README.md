@@ -37,11 +37,11 @@
 ### Using opkg:
 
 ```sh
-cd /tmp && wget -O luci-app-aurora-config.ipk https://github.com/eamonxg/luci-app-aurora-config/releases/latest/download/luci-app-aurora-config_0.2.0-r20260119_all.ipk && opkg install luci-app-aurora-config.ipk
+cd /tmp && uclient-fetch -O luci-app-aurora-config.ipk https://github.com/eamonxg/luci-app-aurora-config/releases/latest/download/luci-app-aurora-config_0.3.0-r20260208_all.ipk && opkg install luci-app-aurora-config.ipk
 ```
 
 ### Using apk:
 
 ```sh
-cd /tmp && wget -O luci-app-aurora-config.apk https://github.com/eamonxg/luci-app-aurora-config/releases/latest/download/luci-app-aurora-config-0.2.0-r20260119.apk && apk add --allow-untrusted luci-app-aurora-config.apk
+cd /tmp && uclient-fetch -O luci-app-aurora-config.apk https://github.com/eamonxg/luci-app-aurora-config/releases/latest/download/luci-app-aurora-config-0.3.0-r20260208.apk && apk add --allow-untrusted luci-app-aurora-config.apk
 ```
